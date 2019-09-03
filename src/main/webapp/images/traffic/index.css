@@ -1,0 +1,237 @@
+
+.x-carinfo-text-header { color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#232323); text-shadow: 0 1px 0 #232323; font: normal 11px/12px tahoma, 宋体, verdana, sans-serif; }
+
+.x-carinfo-text { color: #000000; font: normal 11px/12px tahoma, 宋体, verdana, sans-serif; padding: 6px 6px 5px 10px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: left; }
+
+.x-carinfo-text-alarm { color: #FF0000; font: normal 11px/12px tahoma, 宋体, verdana, sans-serif; padding: 6px 6px 5px 10px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: left; }
+
+
+/* line 9, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker { width: 177px; background: url(../playback/datepickerbackground.png) no-repeat 0px 0px; }
+
+/* line 19, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-header { padding: 8px 8px; height: 39px; text-align: center; position: relative; zoom: 1; }
+
+/* line 32, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-arrow { width: 15px; height: 20px; top: 10px; cursor: pointer; background-color: #6f6f6f; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; position: absolute; }
+
+/* line 50, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+a.x-playbackdatepicker-arrow:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+
+/* line 55, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-next { right: 31px; background-image: url(../playback/right-btn.png); }
+
+/* line 60, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-prev { left: 32px; background-image: url(../playback/left-btn.png); }
+
+/* line 76, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-month .x-btn, .x-playbackdatepicker-month .x-btn .x-btn-tc, .x-playbackdatepicker-month .x-btn .x-btn-tl, .x-playbackdatepicker-month .x-btn .x-btn-tr, .x-playbackdatepicker-month .x-btn .x-btn-mc, .x-playbackdatepicker-month .x-btn .x-btn-ml, .x-playbackdatepicker-month .x-btn .x-btn-mr, .x-playbackdatepicker-month .x-btn .x-btn-bc, .x-playbackdatepicker-month .x-btn .x-btn-bl, .x-playbackdatepicker-month .x-btn .x-btn-br { background: transparent; border-width: 0 !important; }
+
+
+/* line 83, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-month .x-playbackdatepicker-monthbtn-inner { color: white; font: normal 18px 宋体, Arial, Helvetica, sans-serif; }
+/* line 88, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-month .x-btn-split-right { background-image: url(../playback/s-arrow-light.gif); padding-right: 12px; }
+
+
+
+/* line 94, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-column-header { width: 42px; color: #3e3e3e; font: normal 10px tahoma, arial, verdana, sans-serif; text-align: center; height: 23px; }
+
+/* line 113, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-column-header-inner { line-height: 19px; }
+
+/* line 118, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-cell { text-align: center; height: 40px; }
+
+/* line 128, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-date { padding: 0 0px 0 0; font: normal 18px 宋体, Arial, Helvetica, sans-serif; font-weight: 900; color: #757575; cursor: pointer; line-height: 32px; filter: Dropshadow(offx=1,offy=1,color=#ffffff); text-shadow: 0 1px 0 #ffffff; }
+
+/* line 138, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+a.x-playbackdatepicker-date:hover { color: #a58585; background-color: transparent; }
+
+/* line 152, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-today { background: url(../playback/datepicker_today.png) no-repeat 0px 0px; }
+
+.x-playbackdatepicker-today .x-playbackdatepicker-date { color: #ffffff; }
+
+/* line 143, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-selected { background: url(../playback/datepicker_sel.png) no-repeat 0px 0px; }
+/* line 146, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-selected .x-playbackdatepicker-date { font-weight: 900; }
+
+
+
+
+/* line 159, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-prevday .x-playbackdatepicker-date, .x-playbackdatepicker-nextday .x-playbackdatepicker-date { color: #cf680d; font: normal 18px 宋体, Arial, Helvetica, sans-serif; font-weight: 900; filter: Dropshadow(offx=1,offy=1,color=#ffffff); text-shadow: 0 1px 0 #ffffff; }
+
+/* line 166, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-disabled a.x-playbackdatepicker-date { background-color: #eeeeee; cursor: default; color: #bbbbbb; }
+
+/* line 174, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-disabled a.x-playbackdatepicker-date:hover { background-color: #eeeeee; }
+
+/* line 179, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-footer, .x-monthpicker-buttons { padding: 4px 0; border-width: 1px 0 0; border-style: solid; border-color: #d0d0d0; background-image: none; background-color: #e9e9e9; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfdfdf), color-stop(49%, #d6d6d6), color-stop(51%, #d0d0d0), color-stop(100%, #d2d2d2)); background-image: -webkit-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2); background-image: -moz-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2); background-image: -o-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2); background-image: linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2); text-align: center; }
+/* line 195, ../../../ext-theme-neutral/sass/src/picker/Date.scss */
+.x-playbackdatepicker-footer .x-btn, .x-monthpicker-buttons .x-btn { margin: 0 2px 0 2px; }
+
+
+/*播放速度滑动条*/
+.x-playbackslider-slider { background: url(../playback/speedsliderback.png) no-repeat 0px 0px; width: 156px; height: 34px; }
+
+.x-playbackslider-slider-end { padding-right: 7px; }
+
+.x-playbackslider-slider-inner { position: relative; height: 19px; }
+
+.x-playbackslider-thumb { position: absolute; background: url(../playback/speedthumb.gif) no-repeat 0px 0px; width: 13px; height: 20px; margin-left: -6px; cursor: pointer; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+.x-playbackslider-thumb-over { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+
+
+/*播放音量滑动条*/
+.x-soundslider-slider { background: url(../playback/soundsliderback.png) no-repeat 0px 0px; width: 56px; height: 20px; }
+
+.x-soundslider-slider-end { padding-right: 7px; }
+
+.x-soundslider-slider-inner { position: relative; height: 19px; }
+
+.x-soundslider-thumb { position: absolute; background: url(../playback/speedthumb.gif) no-repeat 0px 0px; width: 13px; height: 20px; margin-left: -6px; cursor: pointer; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+.x-soundslider-thumb-over { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+/*
+.x-soundslider-thumb-over {
+  background-position: -15px -15px;
+}*/
+
+
+
+/*播放按钮*/
+.x-playback-btn-play { background: url(../playback/play.png) no-repeat 0px 0px; }
+
+.x-playback-btn-play-hover { background: url(../playback/play_hover.png) no-repeat 0px 0px; }
+
+.x-playback-btn-play-checked { background: url(../playback/pause.png) no-repeat 0px 0px; }
+
+.x-playback-btn-play-checkedhover { background: url(../playback/pause_hover.png) no-repeat 0px 0px; }
+
+.x-playback-btn-stop { background: url(../playback/stop.png) no-repeat 0px 0px; }
+
+.x-playback-btn-stop-hover { background: url(../playback/stop_hover.png) no-repeat 0px 0px; }
+
+
+.x-playback-btn-step { background: url(../playback/step.png) no-repeat 0px 0px; }
+
+.x-playback-btn-step-hover { background: url(../playback/step_hover.png) no-repeat 0px 0px; }
+
+.x-playback-btn-snapshot { background: url(../playback/snapshot.png) no-repeat 0px 0px; }
+
+.x-playback-btn-snapshot-hover { background: url(../playback/snapshot_hover.png) no-repeat 0px 0px; }
+
+.x-playback-btn-kyk { background: url(../playback/kyk.png) no-repeat 0px 0px; }
+
+.x-playback-btn-kyk-hover { background: url(../playback/kyk_hover.png) no-repeat 0px 0px; }
+
+.x-playback-btn-ajk { background: url(../playback/ajk.png) no-repeat 0px 0px; }
+
+.x-playback-btn-ajk-hover { background: url(../playback/ajk_hover.png) no-repeat 0px 0px; }
+
+.x-playback-btn-location { background: url(../playback/location.png) no-repeat 0px 0px; }
+
+.x-playback-btn-location-hover { background: url(../playback/location_hover.png) no-repeat 0px 0px; }
+
+
+.x-playback-btn-full { background: url(../playback/full.png) no-repeat 0px 0px; }
+
+.x-playback-btn-full-hover { background: url(../playback/full_hover.png) no-repeat 0px 0px; }
+
+
+.x-playback-btn-syn { background: url(../playback/dragbtn02.gif) no-repeat 0px 0px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+.x-playback-btn-syn-hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+
+.x-playback-btn-syn-checkedhover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+
+.x-playback-btn-syn-text { vertical-align: middle; line-height: 22px; color: #ffffff; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 12px; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+
+/*播放按钮*/
+.x-playback-btn-search { background: url(../playback/search.png) no-repeat 0px 0px; }
+.x-playback-btn-search-hover { background: url(../playback/search_hover.png) no-repeat 0px 0px; }
+.x-gis-top-text { color: #ffffff; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 12px; filter: Dropshadow(offx=1,offy=1,color=#000000); text-shadow: 0 1px 0 #000000; }
+/*一键关城门*/
+.x-btn-yjgcm { }
+.x-btn-yjgcm-hover { background: url(../zhdd/onekeyclosedoor_hover.png) no-repeat 0px 0px; }
+
+.x-btn-yjgcmchecked { background: url(../zhdd/onekeyclosedoor_hover.png) no-repeat 0px 0px;  }
+.x-btn-yjgcmchecked-hover { background: url(../zhdd/onekeyclosedoor_hover.png) no-repeat 0px 0px; }
+
+/*预案管理*/
+.x-spacorddion-item-yagl { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn01_sub01.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-yagl-hover { background: url(../zhdd/leftbtn01_sub01_hover.png) no-repeat 0px 0px; }
+
+/*伴行分析*/
+.x-spacorddion-item-bxfx { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn01_sub02.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-bxfx-hover { background: url(../zhdd/leftbtn01_sub02_hover.png) no-repeat 0px 0px; }
+
+/*电视墙01*/
+.x-spacorddion-item-tvwall01 { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn02_sub01.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-tvwall01-hover { background: url(../zhdd/leftbtn02_sub01_hover.png) no-repeat 0px 0px; }
+
+/*电视墙01*/
+.x-spacorddion-item-tvwall02 { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn02_sub02.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-tvwall02-hover { background: url(../zhdd/leftbtn02_sub02_hover.png) no-repeat 0px 0px; }
+
+/*电视墙03*/
+.x-spacorddion-item-tvwall03 { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn02_sub03.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-tvwall03-hover { background: url(../zhdd/leftbtn02_sub03_hover.png) no-repeat 0px 0px; }
+
+/*电视墙03*/
+.x-spacorddion-item-yjzhdd01 { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn03_sub01.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-yjzhdd01-hover { background: url(../zhdd/leftbtn03_sub01_hover.png) no-repeat 0px 0px; }
+
+/*电视墙03*/
+.x-spacorddion-item-yjzhdd02 { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn03_sub02.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-yjzhdd02-hover { background: url(../zhdd/leftbtn03_sub02_hover.png) no-repeat 0px 0px; }
+
+/*电视墙03*/
+.x-spacorddion-item-yjzhdd03 { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn03_sub03.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-yjzhdd03-hover { background: url(../zhdd/leftbtn03_sub03_hover.png) no-repeat 0px 0px; }
+
+/*电视墙03*/
+.x-spacorddion-item-yjzhdd04 { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn03_sub04.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-yjzhdd04-hover { background: url(../zhdd/leftbtn03_sub04_hover.png) no-repeat 0px 0px; }
+
+/*电视墙03*/
+.x-spacorddion-item-yjzhdd05 { padding: 2px 0px 0px 124px; background: url(../zhdd/leftbtn03_sub05.png) no-repeat 0px 0px; text-align: left; vertical-align: middle; line-height: 36px; font-family: 宋体, Arial, Helvetica, sans-serif; font-size: 14px; color: #ffffff; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+.x-spacorddion-item-yjzhdd05-hover { background: url(../zhdd/leftbtn03_sub05_hover.png) no-repeat 0px 0px; }
+
+/*地图工具栏*/
+.x-gis-toolbar-left { background: url(../zhdd/toolbarleft.png) no-repeat 0px 0px; }
+.x-gis-toolbar-left-hover { background: url(../zhdd/toolbarleft_hover.png) no-repeat 0px 0px; }
+.x-gis-toolbar-right { background: url(../zhdd/toolbarright.png) no-repeat 0px 0px; }
+.x-gis-toolbar-right-hover { background: url(../zhdd/toolbarright_hover.png) no-repeat 0px 0px; }
+
+.x-gis-toolbar-text { color: White; position: relative; left: 0px; top: 54px; }
+
+.x-gis-toolbar-panel { text-align: center; background: url(../zhdd/panel.png) no-repeat 0px 0px; }
+.x-gis-toolbar-panel-hover { text-align: center; background: url(../zhdd/panel_hover.png) no-repeat 0px 0px; }
+.x-gis-toolbar-rectsel { text-align: center; background: url(../zhdd/rectsel.png) no-repeat 0px 0px; }
+.x-gis-toolbar-rectsel-hover { text-align: center; background: url(../zhdd/rectsel_hover.png) no-repeat 0px 0px; }
+.x-gis-toolbar-sel2 { text-align: center; background: url(../zhdd/sel2.png) no-repeat 0px 0px; }
+.x-gis-toolbar-sel2-hover { text-align: center; background: url(../zhdd/sel2_hover.png) no-repeat 0px 0px; }
+.x-gis-toolbar-sel3 { text-align: center; background: url(../zhdd/sel3.png) no-repeat 0px 0px; }
+.x-gis-toolbar-sel3-hover { text-align: center; background: url(../zhdd/sel3_hover.png) no-repeat 0px 0px; }
+.x-gis-toolbar-distance { text-align: center; background: url(../zhdd/distance.png) no-repeat 0px 0px; }
+.x-gis-toolbar-distance-hover { text-align: center; background: url(../zhdd/distance_hover.png) no-repeat 0px 0px; }
+.x-gis-toolbar-home { text-align: center; background: url(../zhdd/home.png) no-repeat 0px 0px; }
+.x-gis-toolbar-home-hover { text-align: center; background: url(../zhdd/home_hover.png) no-repeat 0px 0px; }
+.x-gis-toolbar-path { text-align: center; background: url(../zhdd/path.png) no-repeat 0px 0px; }
+.x-gis-toolbar-path-hover { text-align: center; background: url(../zhdd/path_hover.png) no-repeat 0px 0px; }
+.x-gis-toolbar-save { text-align: center; background: url(../zhdd/save.png) no-repeat 0px 0px; }
+.x-gis-toolbar-save-hover { text-align: center; background: url(../zhdd/save_hover.png) no-repeat 0px 0px; }
+.x-gis-spacorddion { background: rgb(228,228,228); }
+.x-top-text { color: Black; filter: Dropshadow(offx=1,offy=1,color=#cacaca); text-shadow: 0 1px 0 #cacaca; }
+/*CKEditor*/
+.xcke * { box-sizing: content-box !important; -moz-box-sizing: content-box !important; -ms-box-sizing: content-box !important; -webkit-box-sizing: content-box !important; }
+.cke_dialog_tabs * { box-sizing: content-box !important; -moz-box-sizing: content-box !important; -ms-box-sizing: content-box !important; -webkit-box-sizing: content-box !important; }

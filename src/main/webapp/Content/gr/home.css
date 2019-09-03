@@ -1,0 +1,6 @@
+body { margin: 0; }
+body { background-color: #15478E; }
+.inputbox { font-size: 14.8px; color: #999999; width: 200px; height: 20px; border-bottom: #ffffff 1px solid; border-left: #ffffff 1px solid; border-right: #ffffff 1px solid; border-top: #ffffff 1px solid; }
+.chkbox { font-size: 14.8px; color: #999999; width: 100px; height: 20px; border-bottom: #ffffff 1px solid; border-left: #ffffff 1px solid; border-right: #ffffff 1px solid; border-top: #ffffff 1px solid; }
+.readme_text { font-family: ËÎÌו; font-size: 9pt; color: #000000; line-height: 22px; padding-left: 4px; filter: Dropshadow(offx=1,offy=1,color=#147CE4); text-shadow: 0 1px 0 #147CE4; }
+.copyright_text { font-family: ËÎÌו; font-size: 9pt; color: #506E8C; line-height: 22px; }

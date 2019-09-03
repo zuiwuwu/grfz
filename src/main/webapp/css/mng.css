@@ -1,0 +1,8 @@
+.x-sp-mng-leftitem {
+	border-bottom: 1px solid #e6e7ec;
+}
+.x-sp-mng-leftitem-hover {
+	background-color: #363636;
+	cursor: pointer;
+	color: white;
+}

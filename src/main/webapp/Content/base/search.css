@@ -1,0 +1,69 @@
+﻿dl { padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; }
+dt { padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; }
+dd { padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; }
+.clear-fix:after { display: block; height: 0px; visibility: hidden; clear: both; content: "020"; }
+.clear-fix { }
+.hidden { display: none; }
+
+.filter-noresult { position: relative; padding-bottom: 0px; padding-left: 56px; padding-right: 0px; margin-bottom: 20px; height: 205px; padding-top: 23px; }
+.filter-noresult .icon-filter-noresult { top: 10px; left: 10px; }
+.filter-noresult P { line-height: 16px; margin-bottom: 30px; color: #0081cc; font-size: 14px; font-weight: bold; }
+.filter-noresult DL { line-height: 30px; color: #555; font-size: 14px; }
+.filter-noresult DL LI { position: relative; padding-left: 20px; }
+.filter-noresult DL LI .icon-dot { top: 14px; left: 6px; }
+.filter-noresult DL LI A { color: #555; text-decoration: underline; }
+.filter-noresult DL LI A:hover { color: #e43000; }
+.filter-panel { border-bottom: #a9cfda 1px solid; position: relative; border-left: #a9cfda 1px solid; padding-bottom: 10px; width: auto; margin-bottom: 30px; border-top: medium none; border-right: #a9cfda 1px solid; }
+.filter-panel .btn-unfold { border-bottom: #a9cfda 1px solid; position: absolute; text-align: right; border-left: #a9cfda 1px solid; line-height: 20px; width: 76px; bottom: -22px; padding-right: 15px; background: #fff; height: 20px; color: #7e7e7e; margin-left: -38px; overflow: hidden; border-top: #fff 1px solid; cursor: pointer; border-right: #a9cfda 1px solid; left: 50%; }
+.filter-panel .btn-unfold .angle-down { top: 8px; left: 10px; }
+.filter-panel .btn-unfold .angle-down SPAN { border-right-width: 5px; border-bottom-width: 5px; border-top: #7e7e7e 5px solid; border-left-width: 5px; }
+.filter-panel .btn-unfold .angle-down .angle-inner { border-top-color: #fff; top: -2px; }
+.filter-panel .btn-unfold .angle-up { top: 2px; left: 10px; }
+.filter-panel .btn-unfold .angle-up SPAN { border-bottom: #7e7e7e 5px solid; border-right-width: 5px; border-top-width: 5px; border-left-width: 5px; }
+.filter-panel .btn-unfold .angle-up .angle-inner { border-bottom-color: #fff; top: 2px; }
+.filter-panel .btn-unfold:hover { color: #e43000; text-decoration: none; }
+.filter-panel .btn-unfold:hover .angle-down SPAN { border-top: #e43000 5px solid; }
+.filter-panel .btn-unfold:hover .angle-down .angle-inner { border-top-color: #fff; }
+.filter-panel .btn-unfold:hover .angle-up SPAN { border-bottom: #e43000 5px solid; }
+.filter-panel .btn-unfold:hover .angle-up .angle-inner { border-bottom-color: #fff; }
+.filter-panel .selected-panel { position: relative; line-height: 18px; width: 100%; background: #ffffcd; color: #e5390b; overflow: hidden; }
+.filter-panel .selected-panel DL { padding-bottom: 10px; padding-left: 25px; padding-right: 25px; padding-top: 10px; }
+.filter-panel .selected-panel DT { width: 60px; float: left; overflow: hidden; margin-right: 5px; }
+.filter-panel .selected-panel DD { width: 720px; float: left; overflow: hidden; }
+.filter-panel .selected-panel DD .selected-item { border-bottom: #fd6000 1px solid; position: relative; border-left: #fd6000 1px solid; padding-bottom: 0px; line-height: 16px; padding-left: 5px; padding-right: 21px; background: #fff; float: left; height: 16px; color: #e5390b; overflow: hidden; border-top: #fd6000 1px solid; top: 0px; right: 0px; margin-right: 10px; border-right: #fd6000 1px solid; text-decoration: none; padding-top: 0px; }
+.filter-panel .selected-panel DD .selected-item:hover { border-bottom: #fd6000 1px solid; position: relative; border-left: #fd6000 1px solid; padding-bottom: 0px; line-height: 16px; padding-left: 5px; padding-right: 21px; background: #fff; float: left; height: 16px; color: #e5390b; overflow: hidden; border-top: #fd6000 1px solid; top: 0px; right: 0px; margin-right: 10px; border-right: #fd6000 1px solid; text-decoration: none; padding-top: 0px; }
+.filter-panel .selected-panel DD .selected-item .btn-X { position: absolute; text-align: center; width: 16px; background: #fd6000; height: 16px; color: #fff; overflow: hidden; top: 0px; right: 0px; }
+.filter-panel .selected-panel .btn-filter-reset { position: absolute; height: 18px; color: #7e7e7e; top: 11px; right: 18px; text-decoration: none; }
+.filter-panel .selected-panel .btn-filter-reset:hover { color: #e43000; }
+.filter-panel .charactor-panel-wrapper { padding-bottom: 10px; }
+.filter-panel .charactor-panel { position: relative; margin: 0px 10px; width: 98%; overflow: hidden; border-top: #f0f0f0 1px solid; }
+.filter-panel .border-none { border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none; }
+.filter-panel .fold DL { height: 28px; overflow: hidden; }
+.filter-panel .fold .brand-height { height: 56px; }
+.filter-panel .charactor-panel DT { margin: 6px 0px; padding-left: 15px; width: 80px; float: left; }
+.filter-panel .charactor-panel DD { padding-bottom: 6px; padding-left: 15px; width: 900px; padding-right: 0px; float: left; overflow: hidden; padding-top: 0px; }
+.filter-panel .charactor-panel DD .charactor-item { margin: 6px 15px 0px 0px; width: auto; float: left; height: 20px; color: #0280cc; overflow: hidden; }
+.filter-panel .charactor-panel DD .charactor-item:hover { color: #e43000; text-decoration: none; }
+.filter-panel .charactor-panel DD A.selected { color: #e43000; text-decoration: none; }
+.filter-panel .btn-more-charactor { position: absolute; width: 40px; height: 18px; color: #7e7e7e; overflow: hidden; top: 3px; cursor: pointer; right: 5px; }
+.filter-panel .btn-more-charactor .angle-down { top: 8px; left: 26px; }
+.filter-panel .btn-more-charactor .angle-down SPAN { border-right-width: 4px; border-bottom-width: 4px; border-top: #7e7e7e 4px solid; border-left-width: 4px; }
+.filter-panel .btn-more-charactor .angle-down .angle-inner { border-top-color: #fff; top: -2px; }
+.filter-panel .btn-more-charactor .angle-up { top: 2px; left: 26px; }
+.filter-panel .btn-more-charactor .angle-up SPAN { border-bottom: #7e7e7e 4px solid; border-right-width: 4px; border-top-width: 4px; border-left-width: 4px; }
+.filter-panel .btn-more-charactor .angle-up .angle-inner { border-bottom-color: #fff; top: 2px; }
+.filter-panel .btn-more-charactor:hover { color: #e43000; text-decoration: none; }
+.filter-panel .btn-more-charactor:hover .angle-down SPAN { border-top: #e43000 4px solid; }
+.filter-panel .btn-more-charactor:hover .angle-down .angle-inner { border-top-color: #fff; }
+.filter-panel .btn-more-charactor:hover .angle-up SPAN { border-bottom: #e43000 4px solid; }
+.filter-panel .btn-more-charactor:hover .angle-up .angle-inner { border-bottom-color: #fff; }
+
+.angle { position: absolute; }
+.angle SPAN { position: absolute; border-bottom-style: dashed; border-bottom-color: transparent; border-right-style: dashed; border-top-color: transparent; width: 0px; border-top-style: dashed; height: 0px; border-right-color: transparent; font-size: 0px; border-left-style: dashed; overflow: hidden; border-left-color: transparent; }
+.angle .angle-outer { top: 0px; left: 0px; }
+.angle-up .angle-inner { top: 1px; left: 0px; }
+.angle-right .angle-inner { top: 0px; left: -1px; }
+.angle-down .angle-inner { top: -1px; left: 0px; }
+.angle-left .angle-inner { top: 0px; left: 1px; }
+
+.grid-btn { color: Blue; text-decoration: underline; cursor: pointer; }

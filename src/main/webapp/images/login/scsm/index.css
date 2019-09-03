@@ -1,0 +1,18 @@
+.x-scsm-loginback
+{
+	background-image: url("./index1.png") 
+}
+
+.x-scsm-logininput
+{
+	background-color: transparent;
+}
+
+.x-scsm-login
+{
+	cursor: pointer;
+}
+.x-scsm-downloadchrome
+{
+	cursor: pointer;
+}

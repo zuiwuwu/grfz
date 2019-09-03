@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="262px" height="36px" viewBox="0 0 262 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 -0.000235135135 0 2.42792703 103.571632 2.42792703 126.150675 24.9632784 246.348957 24.9632784 246.348957 22.5359 127.157399 22.5359 104.579141 -0.000235135135"></polygon>
+        <filter x="-2.8%" y="-20.0%" width="105.7%" height="156.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.57254902   0 0 0 0 0.831372549  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-63.6%" y="-45.5%" width="227.3%" height="227.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.57254902   0 0 0 0 0.831372549  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-4" points="10.4653742 0.654302703 10.4653742 10.9728162 0.126743558 10.9728162 0.126743558 0.654302703 10.4653742 0.654302703"></polygon>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1-Copy-2" transform="translate(130.500000, 16.000000) scale(-1, 1) translate(-130.500000, -16.000000) translate(3.000000, 2.000000)">
+            <g id="Fill-1">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#0092D4" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-4" filter="url(#filter-3)" transform="translate(243.006135, 16.936422)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Clip-3"></g>
+                <path d="M2.55874356,5.81316757 C2.55874356,7.3196 3.78691534,8.54543784 5.29621595,8.54543784 C6.80551656,8.54543784 8.03290307,7.3196 8.03290307,5.81316757 C8.03290307,4.30673514 6.80551656,3.08168108 5.29621595,3.08168108 C3.78691534,3.08168108 2.55874356,4.30673514 2.55874356,5.81316757 M10.4656883,5.81316757 C10.4656883,8.6583027 8.1467681,10.9728162 5.29621595,10.9728162 C2.4456638,10.9728162 0.126743558,8.6583027 0.126743558,5.81316757 C0.126743558,2.96881622 2.4456638,0.654302703 5.29621595,0.654302703 C8.1467681,0.654302703 10.4656883,2.96881622 10.4656883,5.81316757" id="Fill-2" fill="#0092D4" mask="url(#mask-5)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

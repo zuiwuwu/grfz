@@ -1,0 +1,30 @@
+﻿.largebr { background: #1B2D53 url(largebr.jpg) center center; }
+.chkcode_btn { background: url(chkcode_btn.jpg); color: #17287a; text-align: center; height: 32px; line-height: 30px; vertical-align: middle; }
+.chkcode_btn-hover { background: url(chkcode_btn_hover.jpg); }
+.chkcode_btn-down { background: url(chkcode_btn.jpg); }
+.chkcode_btn-disable { background: url(chkcode_btn_disable.jpg); }
+.digital_bt { background: #1B2D53 url(digital_bt.jpg) ; }
+.digital_bt-hover { background: #1B2D53 url(digital_bt_hover.jpg) ; }
+.digital_bt-down { background: #1B2D53 url(digital_bt.jpg) ; }
+.login_bt { background: #1B2D53 url(login_bt.jpg) ; }
+.login_bt-hover { background: #1B2D53 url(login_bt_hover.jpg) ; }
+.login_bt-down { background: #1B2D53 url(login_bt.jpg) ; }
+.loginbr_right_r1_c1 { background: #1B2D53 url(loginbr_right_r1_c1.jpg) ; }
+.loginbr_right_r2_c1 { background: #1B2D53 url(loginbr_right_r2_c1.jpg) ; }
+.loginbr_right_r2_c2 { background: transparent; }
+.loginbr_right_r2_c3 { background: #1B2D53 url(loginbr_right_r2_c3.jpg) ; }
+.loginbr_right_r4_c1 { background: #1B2D53 url(loginbr_right_r4_c1.jpg) ; }
+.loginbr_account { background: #1B2D53 url(loginbr_account.png); }
+
+/*标题*/
+.jj_title { background: url(loginbr_right_r3_c1.jpg) ; }
+.kfq_title { background: url(login2br_right_r3_c1.jpg) ; }
+.gat_title { background: url(login3br_right_r3_c1.jpg) ; }
+.gg_title { background: url(login_gg.png) no-repeat; }
+
+/*输入框边框*/
+*:focus { outline: none; }
+.input_font { font-size: 14.8px; color: Black; }
+.input_empty_font { font-size: 14.8px; color: #999999; }
+.readme_text { font-family: 宋体; font-size: 9pt; color: #000000; line-height: 22px; padding-left: 4px; filter: Dropshadow(offx=1,offy=1,color=#147CE4); text-shadow: 0 1px 0 #147CE4; }
+.copyright_text { font-family: 宋体; font-size: 9pt; color: #506E8C; line-height: 22px; }

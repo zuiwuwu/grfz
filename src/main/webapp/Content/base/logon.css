@@ -1,0 +1,55 @@
+body { padding: 0; margin: 0; }
+body, html { height: 100%; }
+td { height: 30px; }
+.notice { width: 280px; left: 850px; top: 250px; position: absolute; text-align: left; color: #3e77a5; font-size: 12px; }
+
+.logon_back { width: 1250px; height: 735px; top: 0px; background: url('images/logon_back.png') no-repeat; margin: 0 auto; position: relative; }
+.input { width: 180px; height: 18px; position: absolute; background-color: #D3DCE3; }
+.button { width: 103px; height: 42px; position: absolute; border: 0px; margin: 0px; padding: 0px; background: url('images/btn_list_new.png') no-repeat; }
+#username { left: 592px; top: 298px; }
+#userpwd { left: 592px; top: 342px; }
+#logon { left: 533px; top: 383px; background-position: -15px -269px; }
+#cancel { left: 676px; top: 383px; background-position: -159px -269px; }
+#logon:hover { background-position: -15px -315px; }
+#cancel:hover { background-position: -159px -315px; }
+#logon:active { background-position: -15px -361px; }
+#cancel:active { background-position: -159px -361px; }
+#userError { background-color: transparent; left: 650px; top: 299px; }
+#pswError { background-color: transparent; left: 650px; top: 343px; }
+
+.logon_back_auth { width: 1250px; height: 735px; top: 0px; background: url('images/logon_back_auth.png') no-repeat; margin: 0 auto; position: relative; }
+.input_auth { width: 180px; height: 18px; position: absolute; background-color: #D3DCE3; }
+.button_auth { width: 86px; height: 34px; position: absolute; border: 0px; margin: 0px; padding: 0px; background: url('images/btn_list_new.png') no-repeat; }
+#username_auth { left: 593px; top: 290px; }
+#userpwd_auth { left: 593px; top: 324px; }
+#usercode_auth { left: 593px; top: 360px; width: 50px; }
+#btnGetAuthCode_auth { left: 650px; top: 358px; height: 24px; width: 128px; text-align: center; }
+#userError_auth { background-color: transparent; left: 650px; top: 292px; }
+#pswError_auth { background-color: transparent; left: 650px; top: 326px; }
+#logon_auth { left: 533px; top: 395px; background-position: -295px -278px; }
+#cancel_auth { left: 692px; top: 395px; background-position: -417px -278px; }
+#logon_auth:hover { background-position: -295px -316px; }
+#cancel_auth:hover { background-position: -417px -316px; }
+#logon_auth:active { background-position: -295px -354px; }
+#cancel_auth:active { background-position: -417px -354px; }
+
+.logon_back_selector { width: 1250px; height: 735px; top: 0px; background: url('images/selector.png') no-repeat; margin: 0 auto; position: relative; }
+.selector_btn { width: 178px; height: 72px; position: absolute; background: url('images/selector_btn_list.png') no-repeat; cursor: pointer; }
+#traffic01 { top: 430px; left: 347px; background-position: -12px -13px; }
+#traffic02 { top: 430px; left: 545px; background-position: -205px -15px; }
+#traffic03 { top: 530px; left: 415px; background-position: -404px -14px; }
+#traffic04 { top: 430px; left: 743px; background-position: -604px -14px; }
+#traffic01:hover { background-position: -12px -92px; }
+#traffic01:active { background-position: -12px -175px; }
+#traffic02:hover { background-position: -205px -94px; }
+#traffic02:active { background-position: -205px -177px; }
+#traffic03:hover { background-position: -404px -93px; }
+#traffic03:active { background-position: -404px -176px; }
+#traffic04:hover { background-position: -604px -93px; }
+#traffic04:active { background-position: -604px -176px; }
+
+.logon_back_sp_selector { width: 1250px; height: 735px; top: 0px; background: url('images/sp_selector.jpg') no-repeat; margin: 0 auto; position: relative; }
+#middle { position: absolute; top: 0px; }
+/* for explorer only*/
+#middle[id] { display: table-cell; vertical-align: middle; position: static; }
+#outer { width: 1250px; height: 735px; position: absolute; left: 50%; top: 50%; margin-left: -625px; margin-top: -368px; }

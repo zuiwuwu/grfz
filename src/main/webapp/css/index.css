@@ -1,0 +1,328 @@
+.x-clcx-info-title
+{
+    line-height: 12px;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(212, 245, 255);
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    height: 24px;
+    font-weight: bold;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 90px;
+}
+.x-clcx-info-text
+{
+    line-height: 12px;
+    vertical-align: middle;
+    font-size: 12px;
+    height: 24px;
+    text-align: left;
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.icon-search1 {
+	
+	 background-image: url(../images/cllsxx/search1.png) !important; 
+}
+.icon-search1-hover {
+	
+	 background-image: url(../images/cllsxx/search2.png) !important; 
+}
+.icon-reset1 {
+	
+	 background-image: url(../images/cllsxx/reset1.png) !important; 
+}
+.icon-reset1-hover {
+	
+	 background-image: url(../images/cllsxx/reset2.png) !important; 
+}
+.icon-hsearch1 {
+	
+	 background-image: url(../images/cllsxx/hsearch1.png) !important; 
+}
+.icon-hsearch1-hover {
+	
+	 background-image: url(../images/cllsxx/hsearch2.png) !important; 
+}
+.icon-switch1 {
+	
+	 background-image: url(../images/cllsxx/switch1.png) !important; 
+}
+
+.icon-switch1-hover {
+	
+	 background-image: url(../images/cllsxx/switch2.png) !important; 
+}
+.icon-export1 {
+	
+	 background-image: url(../images/cllsxx/export1.png) !important; 
+}
+.icon-export1-hover {
+	
+	 background-image: url(../images/cllsxx/export2.png) !important; 
+}
+.icon-dcsj {
+	
+	 background-image: url(../images/cllsxx/dcsj.png) !important; 
+}
+.icon-dcsj2 {
+	
+	 background-image: url(../images/cllsxx/dcsj2.png) !important; 
+}
+.icon-dctp {
+	
+	 background-image: url(../images/cllsxx/dctp.png) !important; 
+}
+.icon-dctp2 {
+	
+	 background-image: url(../images/cllsxx/dctp2.png) !important; 
+}
+.icon-dcxzsj {
+	
+	 background-image: url(../images/cllsxx/dcxzsj.png) !important; 
+}
+.icon-dcxzsj2 {
+	
+	 background-image: url(../images/cllsxx/dcxzsj2.png) !important; 
+}
+.icon-dcxztp {
+	
+	 background-image: url(../images/cllsxx/dcxztp.png) !important; 
+}
+.icon-dcxztp2 {
+	
+	 background-image: url(../images/cllsxx/dcxztp2.png) !important; 
+}
+.icon-leftsearch {
+	
+	 background-image: url(../images/cllsxx/leftsearch2.png) !important; 
+}
+.icon-leftsearch-hover {
+	
+	 background-image: url(../images/cllsxx/leftsearch3.png) !important; 
+}
+.icon-grfz-search {
+	
+	 background-image: url(../images/grfz/search.png) !important; 
+}
+.icon-grfz-search-hover {
+	
+	  background-image: url(../images/grfz/search.png) !important; 
+}
+/* line 1, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-body { background: white; border-width: 1px; border-style: solid; border-color: #d0d0d0; }
+
+/* line 8, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-empty { padding: 10px; color: gray; background-color: white; font: normal 11px tahoma, arial, verdana, sans-serif; }
+
+/* line 15, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-cell { color: null; font: normal 11px/13px tahoma, arial, verdana, sans-serif; border-color: #adadad #adadad #adadad #ffffff; border-style: solid; }
+/* line 115, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-row-lines .x-spgrid-td { border-top-width: 1px; border-bottom-width: 1px; border-bottom-color: transparent; }
+/* line 26, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-alt .x-spgrid-td { background-image: url(./gridrowalt.png); }
+/* line 30, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-before-over .x-spgrid-td { border-bottom-style: solid; border-bottom-color: #dddddd; }
+/* line 35, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-over .x-spgrid-td { border-bottom-style: solid; border-bottom-color: #dddddd; }
+/* line 40, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-before-selected .x-spgrid-td { border-bottom-style: dotted; border-bottom-color: #bfb8b8; }
+/* line 45, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-selected .x-spgrid-td { border-bottom-style: dotted; border-bottom-color: #bfb8b8; }
+/* line 50, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-before-focused .x-spgrid-td { border-bottom-style: dotted; border-bottom-color: #464646; border-bottom-width: 1px; }
+/* line 58, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-focused .x-spgrid-td { background-color: #efefef; }
+/* line 65, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-over .x-spgrid-td { background-color: #efefef; }
+/* line 73, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-selected .x-spgrid-td { background-color: #e0e0e0; background-color: rgb(24,114,197); background-image: none; color: White; }
+/* line 82, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-focused .x-spgrid-td { border-bottom-style: dotted; border-bottom-color: #464646; border-bottom-width: 1px; }
+/* line 92, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-table .x-spgrid-row-focused-first .x-spgrid-td { border-top: 1px dotted #464646; }
+/* line 103, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-selected .x-spgrid-row-summary .x-spgrid-td { border-bottom-color: #e0e0e0; border-top-width: 0; }
+/* line 108, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-focused .x-spgrid-row-summary .x-spgrid-td { border-bottom-color: #efefef; border-top-width: 0; }
+
+
+/* line 121, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-row-lines .x-spgrid-table { border-bottom: 1px solid #adadad; }
+/* line 125, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-row-lines .x-spgrid-table-over-first { border-top-style: solid; border-top-color: #dddddd; }
+/* line 130, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-row-lines .x-spgrid-table-selected-first { border-top-style: dotted; border-top-color: #bfb8b8; }
+
+/* line 139, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-body .x-spgrid-table-focused-first { border-top: 1px dotted #464646; }
+
+/* line 149, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-cell-inner { text-overflow: ellipsis; padding: 0px 6px 0px 6px; line-height: 28px; text-align: center; vertical-align: middle; border-spacing: 0px; }
+
+/* line 163, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-no-row-lines .x-spgrid-row-focused .x-spgrid-cell-inner { padding-top: 1px; padding-bottom: 1px; }
+
+/* line 178, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-cell-special { /*border-color: #ededed #c6c6c6 #ededed #c6c6c6;   border-style: solid;   border-right-width: 1px;   background-image: none;*/ }
+/* line 191, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-selected .x-spgrid-cell-special { border-right-color: #ededed #d4b7b7; }
+/* line 206, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-nlg .x-spgrid-cell-special { background-repeat: repeat-y; background-image: url(images/grid/cell-special-bg.gif); }
+/* line 211, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-nlg .x-spgrid-row-selected .x-spgrid-cell-special { background-image: url(images/grid/cell-special-selected-bg.gif); }
+/* line 78, ../../../ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-spgrid-cell-special .x-spgrid-cell-special:after { display: none; content: "x-slicer:bg:url(images/grid/cell-special-bg.gif)"; }
+/* line 78, ../../../ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-spgrid-cell-special .x-spgrid-cell-special-selected:after { display: none; content: "x-slicer:bg:url(images/grid/cell-special-selected-bg.gif)"; }
+
+/* line 228, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-dirty-cell { background: url(images/grid/dirty.gif) no-repeat 0 0; }
+
+/* line 241, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row .x-spgrid-cell-selected { color: null; background-color: #b8cfee; }
+
+/* line 247, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-col-lines .x-spgrid-cell { border-right-width: 1px; border-left-width: 1px; }
+
+/* line 259, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-resize-marker { width: 1px; background-color: #0f0f0f; }
+
+/* line 1, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-spgrid-drop-indicator { position: absolute; height: 1px; line-height: 0px; background-color: #77BC71; overflow: visible; pointer-events: none; }
+/* line 9, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-spgrid-drop-indicator .x-spgrid-drop-indicator-left { position: absolute; top: -8px; left: -12px; background-image: url(images/grid/dd-insert-arrow-right.png); height: 16px; width: 16px; }
+/* line 18, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-spgrid-drop-indicator .x-spgrid-drop-indicator-right { position: absolute; top: -8px; right: -11px; background-image: url(images/grid/dd-insert-arrow-left.png); height: 16px; width: 16px; }
+
+/* line 29, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-ie6 .x-spgrid-drop-indicator-left { background-image: url(images/grid/dd-insert-arrow-right.gif); }
+/* line 33, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-ie6 .x-spgrid-drop-indicator-right { background-image: url(images/grid/dd-insert-arrow-left.gif); }
+
+/* line 2, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-row, .x-spgrid-data-row { outline: none; height: 28px; background-image: url(./gridrow.png); }
+
+/* line 6, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-view { overflow: hidden; position: relative; }
+
+/* line 11, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-table { table-layout: fixed; border-collapse: separate; }
+
+/* line 16, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-td { overflow: hidden; border-width: 0; vertical-align: top; }
+
+/* line 22, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-cell-inner { overflow: hidden; white-space: nowrap; zoom: 1; }
+
+/* line 28, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-resize-marker { position: absolute; z-index: 5; top: 0; }
+
+/* line 1, ../../../ext-theme-base/sass/src/spgrid/header/Container.scss */
+.x-spgrid-header-ct { cursor: default; background-image: url(./gridheader.png); }
+
+.x-panel-default-outer-border-rbl {
+    border-right-color: #157fcc!important;
+    border-right-width: 0px!important;
+    border-bottom-color: #157fcc!important;
+    border-bottom-width: 0px!important;
+    border-left-color: #157fcc!important;
+    border-left-width: 0px!important;
+}
+
+.x-trafficgrid-body {
+	background-image: url(../images/review/sliderbackground.png);
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #d0d0d0; 
+}
+
+/* 表头背景色 */
+.x-trafficgrid-header-ct { 
+	cursor: default; 
+	background-color: #1790E9; 
+}
+
+.x-trafficcolumn-header { 
+	position: absolute; 
+	overflow: hidden; 
+	background-repeat: repeat-x; 
+	height: 28px; 
+	color: rgb(116,230,255); 
+	border-right: 1px solid #ffffff; 
+	border-left: 1px solid #ffffff; 
+}
+.x-trafficcolumn-header-text {
+	white-space: nowrap; 
+	background-repeat: no-repeat; 
+	zoom: 1; 
+	display: inline-block; 
+	line-height: 28px; 
+	vertical-align: middle; 
+	text-align: center;
+	}
+	
+.x-trafficcolumn-header-inner { 
+	zoom: 1; 
+	white-space: nowrap; 
+	position: relative; 
+	overflow: hidden;
+	text-align: center;
+	}
+
+/* 表单排序按钮  */
+.x-trafficcolumn-header-trigger { 
+	background-image: url(../images/traffic/grid3-hd-btn.gif);
+ }
+ 
+/* .x-trafficcolumn-header-align-center { 
+	text-align: center;
+	} */
+
+/* line 7, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+
+
+.x-trafficcolumn-header-first { border-left: 0px; }
+
+.x-trafficcolumn-header-last { border-right: 0px; }
+/* line 14, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+/* line 25, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-trafficcolumn-header-trigger { display: none; height: 100%; background-repeat: no-repeat; position: absolute; right: 0; top: 0; z-index: 2; }
+
+
+
+
+/* line 70, ../../../ext-theme-neutral/sass/src/grid/column/Column.scss */
+.x-trafficcolumn-header-open { background-color: transparent; }
+/* line 73, ../../../ext-theme-neutral/sass/src/grid/column/Column.scss */
+.x-trafficcolumn-header-open .x-trafficcolumn-header-trigger { background-color: transparent; }
+
+/* line 78, ../../../ext-theme-neutral/sass/src/grid/column/Column.scss */
+.x-trafficcolumn-header-trigger { width: 14px; cursor: pointer; background-color: transparent; background-position: 0 center; }
+
+/* line 43, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-trafficcolumn-header-over .x-trafficcolumn-header-trigger, .x-trafficcolumn-header-open .x-trafficcolumn-header-trigger { display: block; }
+
+/* line 48, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-trafficcolumn-header-align-right { text-align: right; }
+
+/* line 58, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-trafficcolumn-header-align-left { text-align: left; }
+
+/* line 68, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+

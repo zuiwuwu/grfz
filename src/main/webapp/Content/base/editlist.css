@@ -1,0 +1,7 @@
+﻿body { font-size: 12px; margin: 0px; padding: 0px; }
+iframe { border: 0px; }
+#fm { margin: 0; padding: 0px; }
+.ftitle { font-size: 14px; font-weight: bold; color: #666; padding: 5px 0; margin-bottom: 10px; border-bottom: 1px solid #ccc; }
+.fitem { margin-bottom: 5px; }
+.fitem label { display: inline-block; width: 100px; text-align: left; }
+.highlight { background-color: #FFFF88; }

@@ -1,0 +1,150 @@
+/* 上传可疑库 */
+.x-upload-suspicious { left: 570px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/suspicious.png); }
+.x-upload-suspicious-hover { background-image: url(../images/review/suspicious_hover.png); background-position: 0px 0px; }
+
+/* 上传案件库 */
+.x-upload-case { left: 647px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/case.png); }
+.x-upload-case-hover { background-image: url(../images/review/case_hover.png); background-position: 0px 0px; }
+
+/* 录像锁定 */
+.x-video-locking { left: 724px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/locking.png); }
+.x-video-locking-hover { background-image: url(../images/review/locking_hover.png); background-position: 0px 0px; }
+
+/* 录像备份*/
+.x-video-backups { left: 801px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/backups.png); }
+.x-video-backups-hover { background-image: url(../images/review/backups_hover.png); background-position: 0px 0px; } 
+
+/* 关闭当前通道*/
+.x-close-chn { left: 878px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/close_chn.png); }
+.x-close-chn-hover { background-image: url(../images/review/close_chn_hover.png); background-position: 0px 0px; } 
+
+/* 关闭所有通道*/
+.x-close-allchn { left: 949px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/close_allchn.png); }
+.x-close-allchn-hover { background-image: url(../images/review/close_allchn_hover.png); background-position: 0px 0px; } 
+
+/* 抓拍*/
+.x-review-snapshot { left: 30px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/snapshot.png); }
+.x-review-snapshot-hover { background-image: url(../images/review/snapshot_hover.png); background-position: 0px 0px; } 
+
+/* 连拍*/
+.x-review-continuous { left: 88px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/continuous.png); }
+.x-review-continuous-hover { background-image: url(../images/review/continuous_hover.png); background-position: 0px 0px; } 
+
+/*标签 */
+.x-review-lable { left: 146px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/lable.png); }
+.x-review-lable-hover { background-image: url(../images/review/lable_hover.png); background-position: 0px 0px; } 
+
+/*剪切 */
+.x-review-cut { left: 204px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/cut.png); }
+.x-review-cut-hover { background-image: url(../images/review/cut_hover.png); background-position: 0px 0px; } 
+
+/*合并 */
+.x-review-merge { left: 262px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/merge.png); }
+.x-review-merge-hover { background-image: url(../images/review/merge_hover.png); background-position: 0px 0px; } 
+
+/*定位时间 */ 
+.x-review-time { left: 320px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/time.png); }
+.x-review-time-hover { background-image: url(../images/review/time_hover.png); background-position: 0px 0px; } 
+
+/* 暂停 */
+.x-review-stop { left: 558px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/stop.png); }
+.x-review-stop-hover { background-image: url(../images/review/stop_hover.png); background-position: 0px 0px; } 
+
+/* 播放 */
+.x-review-start { left: 616px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/start.png); }
+.x-review-start-hover { background-image: url(../images/review/start_hover.png); background-position: 0px 0px; } 
+
+/* 后退 */
+.x-review-back { left: 674px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/back.png); }
+.x-review-back-hover { background-image: url(../images/review/back_hover.png); background-position: 0px 0px; } 
+
+/* 前进 */
+.x-review-forward { left: 732px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/forward.png); }
+.x-review-forward-hover { background-image: url(../images/review/forward_hover.png); background-position: 0px 0px; } 
+
+/* 后退30秒*/
+.x-review-back30 { left: 790px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/back30.png); }
+.x-review-back30-hover { background-image: url(../images/review/back30_hover.png); background-position: 0px 0px; }
+
+/* 前进 30*/
+.x-review-forward30 { left: 848px; top: 6px; width: 42px; height: 42px; background-image: url(../images/review/forward30.png); }
+.x-review-forward30-hover { background-image: url(../images/review/forward30_hover.png); background-position: 0px 0px; } 
+
+/*静音  */
+.x-review-silent { left: 0px; top: 12px; width: 30px; height: 30px;background-image: url(../images/review/sound.png);  }
+.x-review-silent-checked { background-image: url(../images/review/sound_hover.png); background-position: 0px 0px; }
+
+/*设置*/
+.x-review-setting { left: 160px; top: 13px; width: 30px; height: 30px; background-image: url(../images/review/setting.png) ; }
+.x-review-setting-hover { background-image: url(../images/review/setting_hover.png); background-position: 0px 0px; } 
+
+/*根据时间搜索视频*/
+.x-review-timesearch {  width: 350px; height: 35px;background-image: url(../images/review/time_search.png);  }
+.x-review-timesearch-hover { background-image: url(../images/review/time_search_hover.png); background-position: 0px 0px; }
+
+/*播放速度滑动条*/
+.x-playbackslider-slider { background: url(../images/review/speedsliderback.png) no-repeat 0px 0px; width: 156px; height: 34px; }
+.x-playbackslider-slider-end { padding-right: 7px; }
+.x-playbackslider-slider-inner { position: relative; height: 19px; }
+.x-playbackslider-thumb { position: absolute; background: url(../images/review/speedthumb.gif) no-repeat 0px 0px; width: 13px; height: 20px; margin-left: -6px; cursor: pointer; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+.x-playbackslider-thumb-over { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+
+/* 音量滑动条 */
+.x-review-sound-slider { position: absolute; left: 40px; top: 20px; width: 105px; height: 10px; background: url(../images/review/silder.png); }
+.x-review-sound-slider-end { padding-right: 6px; }
+.x-review-sound-slider-inner { position: relative; height: 6px; }
+.x-review-sound-thumb { position: absolute; background: url(../images/cloud/soundbutton.png) no-repeat 0px 0px; width: 12px; height: 12px; margin-left: -6px; cursor: pointer; }
+.x-review-sound-thumb-over { background: url(../images/cloud/soundbutton.png) no-repeat 0px 0px; }
+
+/* 同步异步开关按钮 */
+.x-playback-btn-syn { background: url(../images/playback/dragbtn02.gif) no-repeat 0px 0px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+.x-playback-btn-syn-hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+.x-playback-btn-syn-checkedhover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+.x-playback-btn-syn-text { vertical-align: middle; line-height: 22px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; filter: Dropshadow(offx=1,offy=1,color=#1f1f1f); text-shadow: 0 1px 0 #1f1f1f; }
+
+/*时间减少按钮*/
+.x-review-reducetime { left: 18px; top: 2px; width: 22px; height: 22px; }
+
+/*时间增加按钮*/
+.x-review-addtime { left: 52px; top: 2px; width: 22px; height: 22px; }
+
+/*日历控件样式  */
+/* 背景 */
+.x-playbackdatepicker { width: 177px; background: url(../images/review/datepickerbackground.png) no-repeat 0px 0px; }
+.x-playbackdatepicker-header { padding: 12px 12px; height: 39px; text-align: center; position: relative; zoom: 1; }
+/*按钮样式  */
+.x-playbackdatepicker-arrow { width: 17px; height: 28px; top: 5px; cursor: pointer; background-color: #6f6f6f; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; position: absolute; }
+.x-playbackdatepicker-arrow:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+.x-playbackdatepicker-next { right: 32px; background-image: url(../images/review/right-btn.png); }
+.x-playbackdatepicker-prev { left: 32px; background-image: url(../images/review/left-btn.png); }
+
+.x-playbackdatepicker-month .x-btn, .x-playbackdatepicker-month .x-btn .x-btn-tc, .x-playbackdatepicker-month .x-btn .x-btn-tl, .x-playbackdatepicker-month .x-btn .x-btn-tr, .x-playbackdatepicker-month .x-btn .x-btn-mc, .x-playbackdatepicker-month .x-btn .x-btn-ml, .x-playbackdatepicker-month .x-btn .x-btn-mr, .x-playbackdatepicker-month .x-btn .x-btn-bc, .x-playbackdatepicker-month .x-btn .x-btn-bl, .x-playbackdatepicker-month .x-btn .x-btn-br { background: transparent; border-width: 0 !important; }
+
+.x-playbackdatepicker-month .x-playbackdatepicker-monthbtn-inner { color: white; font: normal 18px 宋体, Arial, Helvetica, sans-serif; }
+.x-playbackdatepicker-month .x-btn-split-right { background-image: url(../images/playback/s-arrow-light.gif); padding-right: 12px; }
+.x-playbackdatepicker-column-header { width: 42px; color: #3e3e3e; font: normal 10px tahoma, arial, verdana, sans-serif; text-align: center; height: 25px; }
+
+.x-playbackdatepicker-column-header-inner { line-height: 20px; }
+
+.x-playbackdatepicker-cell { text-align: center; height: 29px;width :50px }
+
+.x-playbackdatepicker-date { padding: 0 0px 0 0; font: normal 18px 宋体, Arial, Helvetica, sans-serif; font-weight: 900; color: #757575; cursor: pointer; line-height: 20px; filter: Dropshadow(offx=1,offy=1,color=#ffffff); text-shadow: 0 1px 0 #ffffff; }
+
+.x-playbackdatepicker-date:hover { color: #a58585; background-color: transparent; }
+/* 当天日期背景 */
+.x-playbackdatepicker-today { background: url(../images/review/today.png) no-repeat 0px 0px; }
+
+.x-playbackdatepicker-today .x-playbackdatepicker-date { color: #ffffff; }
+/* 选择日期背景 */
+.x-playbackdatepicker-selected { background: url(../images/review/checkdate.png) no-repeat 0px 0px; }
+.x-playbackdatepicker-selected .x-playbackdatepicker-date { font-weight: 900; }
+
+.x-playbackdatepicker-prevday .x-playbackdatepicker-date, .x-playbackdatepicker-nextday .x-playbackdatepicker-date { color: #cf680d; font: normal 18px 宋体, Arial, Helvetica, sans-serif; font-weight: 900; filter: Dropshadow(offx=1,offy=1,color=#ffffff); text-shadow: 0 1px 0 #ffffff; }
+
+.x-playbackdatepicker-disabled a.x-playbackdatepicker-date { background-color: #eeeeee; cursor: default; color: #bbbbbb; }
+
+.x-playbackdatepicker-disabled a.x-playbackdatepicker-date:hover { background-color: #eeeeee; }
+
+.x-playbackdatepicker-footer, .x-monthpicker-buttons { padding: 4px 0; border-width: 1px 0 0; border-style: solid; border-color: #d0d0d0; background-image: none; background-color: #e9e9e9; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfdfdf), color-stop(49%, #d6d6d6), color-stop(51%, #d0d0d0), color-stop(100%, #d2d2d2)); background-image: -webkit-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2); background-image: -moz-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2); background-image: -o-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2); background-image: linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2); text-align: center; }
+.x-playbackdatepicker-footer .x-btn, .x-monthpicker-buttons .x-btn { margin: 0 2px 0 2px; }
+

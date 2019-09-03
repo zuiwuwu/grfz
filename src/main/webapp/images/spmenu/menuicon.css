@@ -1,0 +1,57 @@
+.menuicon-spxl-group 
+{
+    background-image:url(./menuicon.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.menuicon-tvwall 
+{
+    background-image:url(./menuicon.png);
+    background-repeat: no-repeat;
+    background-position: -24px 0px;
+}
+
+.menuicon-ksbk 
+{
+    background-image:url(./menuicon.png);
+    background-repeat: no-repeat;
+    background-position: -48px 0px;
+}
+
+.menuicon-jqts
+{
+    background-image:url(./menuicon.png);
+    background-repeat: no-repeat;
+    background-position: -72px 0px;
+}
+
+.menuicon-jwlx 
+{
+    background-image:url(./menuicon.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.menuicon-dtfyc 
+{
+    background-image:url(./menuicon.png);
+    background-repeat: no-repeat;
+    background-position: -96px 0px;
+}
+.menuicon-jqnj1 
+{
+    background-image:url(./menuicon.png);
+    background-repeat: no-repeat;
+    background-position: -120px 0px;
+}
+.acorddion-tvwall
+{
+    background: url(./mainmenu.png) no-repeat -24px 0px;
+}
+
+.acorddion-tvwall-hover,
+.acorddion-tvwall-checked,
+.acorddion-tvwall-checkedhover
+{
+    background: url(./mainmenu.png) no-repeat 0px 0px;
+}

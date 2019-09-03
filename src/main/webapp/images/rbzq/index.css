@@ -1,0 +1,587 @@
+.x-sp-rbzq-home {
+	background-color: #A8B8D9;
+}
+
+.x-sp-rbzq-home-work {
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.x-sp-rbzq-home-top1 {
+	background-image: url(./home_top1.png);
+	color: white;
+}
+
+.x-sp-rbzq-home-top2 {
+	background-image: url(./home_top2.png);
+	color: white;
+	font-size: 40px;
+	padding: 50px 40px 50px 260px;
+	font-family: 宋体;
+	font-weight: bold;
+	-webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.x-sp-rbzq-home-top2-left {
+	background-image: url(./home_top2_left.png);
+}
+
+.x-sp-rbzq-home-top2-mid
+{
+    background-image: url(./home_top2_mid.png);
+    color: white;
+    font-size: 40px;
+    padding: 50px 40px 50px 60px;
+    font-family: 隶书;
+    font-weight: bold;
+    -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.x-sp-rbzq-home-top2-right {
+	background-image: url(./home_top2_right.png);
+}
+.x-sp-rbzq-home-top3 {
+	color: white;
+	background-color: #133889;
+	font-size: 20px;
+	font-family: 宋体;
+}
+
+.x-sp-rbzq-home-bottom {
+	color: white;
+	background-color: #133889;
+}
+
+.x-sp-rbzq-home-paneltitle-left {
+	background-image: url(./home_panel_left.png);
+	color: #FFFFFF;
+	font-family: 宋体;
+	font-size: 18px;
+}
+
+.x-sp-rbzq-home-paneltitle-mid {
+	background-image: url(./home_panel_mid.png);
+}
+
+.x-sp-rbzq-home-paneltitle-right {
+	background-image: url(./home_panel_right.png);
+}
+
+.x-sp-rbzq-home-panels {
+	border-color: #6F7889;
+	border-width: 1px;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.x-sp-rbzq-home-panel {
+	border-color: #6F737C;
+	border-width: 1px;
+	border-style: solid;
+	border-style: solid;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.x-sp-rbzq-home-panel-in {
+	border-color: #C2CBCA;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.x-sp-rbzq-home-calendar {
+	background-color: #BABABC;
+}
+
+.x-sp-rbzq-home-calendarbody {
+	background-image: url(./calendar.png);
+}
+
+.x-sp-rbzq-home-calendarbtn {
+	background-image: url(./calendar_date.png);
+}
+
+.x-sp-rbzq-home-btn-home {
+	padding: 4px 30px 4px 0px;
+	text-align: right;
+	cursor: pointer;
+}
+
+.x-sp-rbzq-home-btn-homehover {
+	color: red;
+}
+
+.x-sp-rbzq-home-btn-my {
+	padding: 4px 4px 4px 30px;
+	cursor: pointer;
+		border-color: #000000;
+	border-width: 1px;
+	border-left-style: solid;
+	
+}
+
+.x-sp-rbzq-home-listitem {
+	border-color: #000000 #999999 #CCCCCC #666666;
+	border-width: 1px;
+	border-style: solid;
+	cursor: pointer;
+}
+.x-sp-rbzq-home-listitemvisited {
+	border-color: #000000 #999999 #CCCCCC #666666;
+	border-width: 1px;
+	border-style: solid;
+	cursor: pointer;
+	color: green;
+}
+
+.x-sp-rbzq-home-listitemhover {
+	color: red;
+	cursor: pointer;
+}
+
+.x-sp-rbzq-home-listitemleft {
+	line-height: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.x-sp-rbzq-datepicker {
+	width: 271px;
+}
+
+.x-sp-rbzq-datepicker-header {
+	padding: 8px 8px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	zoom: 1;
+}
+
+.x-sp-rbzq-datepicker-arrow {
+	width:  24px;
+	height: 24px;
+	top: 16px;
+	cursor: pointer;
+	background-color: #6f6f6f;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	opacity: 0.7;
+	position: absolute;
+}
+
+a.x-sp-rbzq-datepicker-arrow:hover {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+
+.x-sp-rbzq-datepicker-next {
+	right: 35px;
+	background-image: url(./calendar_next.png);
+}
+
+.x-sp-rbzq-datepicker-prev {
+	left: 38px;
+	background-image: url(./calendar_prev.png);
+	z-index: 1;
+}
+
+.x-sp-rbzq-datepicker-month{
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+
+.x-sp-rbzq-datepicker-month .x-btn, .x-sp-rbzq-datepicker-month .x-btn .x-btn-tc,
+	.x-sp-rbzq-datepicker-month .x-btn .x-btn-tl,
+	.x-sp-rbzq-datepicker-month .x-btn .x-btn-tr,
+	.x-sp-rbzq-datepicker-month .x-btn .x-btn-mc,
+	.x-sp-rbzq-datepicker-month .x-btn .x-btn-ml,
+	.x-sp-rbzq-datepicker-month .x-btn .x-btn-mr,
+	.x-sp-rbzq-datepicker-month .x-btn .x-btn-bc,
+	.x-sp-rbzq-datepicker-month .x-btn .x-btn-bl,
+	.x-sp-rbzq-datepicker-month .x-btn .x-btn-br {
+	background: transparent;
+	border-width: 0 !important;
+}
+
+.x-sp-rbzq-datepicker-month .x-sp-rbzq-datepicker-monthbtn-inner {
+	color: white;
+	font: normal 18px 宋体, Arial, Helvetica, sans-serif;
+}
+
+.x-sp-rbzq-datepicker-month .x-btn-split-right {
+	background-image: url(../playback/s-arrow-light.gif);
+	padding-right: 12px;
+}
+
+.x-sp-rbzq-datepicker-column-header {
+	width: 42px;
+	color: #3e3e3e;
+	font: normal 10px tahoma, arial, verdana, sans-serif;
+	text-align: center;
+	height: 23px;
+}
+
+.x-sp-rbzq-datepicker-column-header-inner
+{
+    line-height: 19px;
+    color: #595959;
+    font-weight: bold;
+    font-family: 隶书;
+}
+
+.x-sp-rbzq-datepicker-cell {
+	text-align: center;
+	height: 26px;
+}
+
+.x-sp-rbzq-datepicker-date {
+	padding: 0 0px 0 0;
+	font: normal 12px 宋体, Arial, Helvetica, sans-serif;
+	color: #595959;
+	cursor: pointer;
+	line-height: 18px;
+}
+
+a.x-sp-rbzq-datepicker-date:hover {
+	color: #a58585;
+	background-color: transparent;
+}
+
+.x-sp-rbzq-datepicker-today {
+}
+
+.x-sp-rbzq-datepicker-today .x-sp-rbzq-datepicker-date {
+	color: #ffffff;
+}
+
+.x-sp-rbzq-datepicker-selected {
+	
+}
+.x-sp-rbzq-datepicker-selected {
+	
+}
+
+.x-sp-rbzq-datepicker-checkin{
+	background: url(./finished.png) no-repeat 0px 0px;
+}
+
+.x-sp-rbzq-datepicker-notdo {
+	background-color: red;
+}
+
+.x-sp-rbzq-datepicker-notfinished{
+	background-color: #B2B200;
+}
+.x-sp-rbzq-datepicker-finished{
+	background-color: green;
+}
+
+.x-sp-rbzq-datepicker-selected .x-sp-rbzq-datepicker-date {
+	font-weight: 700;
+	color: black;
+}
+
+.x-sp-rbzq-datepicker-prevday .x-sp-rbzq-datepicker-date,
+	.x-sp-rbzq-datepicker-nextday .x-sp-rbzq-datepicker-date {
+	color: #cf680d;
+	font: normal 12px 宋体, Arial, Helvetica, sans-serif;
+}
+
+.x-sp-rbzq-datepicker-disabled a.x-sp-rbzq-datepicker-date {
+	background-color: #eeeeee;
+	cursor: default;
+	color: #bbbbbb;
+}
+
+.x-sp-rbzq-datepicker-disabled a.x-sp-rbzq-datepicker-date:hover {
+	background-color: #eeeeee;
+}
+
+.x-sp-rbzq-datepicker-footer, .x-sp-rbzq-datepicker-monthpicker-buttons {
+	padding: 4px 0;
+	border-width: 1px 0 0;
+	border-style: solid;
+	border-color: #d0d0d0;
+	background-image: none;
+	background-color: #e9e9e9;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfdfdf),
+		color-stop(49%, #d6d6d6), color-stop(51%, #d0d0d0),
+		color-stop(100%, #d2d2d2));
+	background-image: -webkit-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2);
+	background-image: -moz-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2);
+	background-image: -o-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2);
+	background-image: linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2);
+	text-align: center;
+}
+
+.x-sp-rbzq-datepicker-footer .x-btn, .x-sp-rbzq-datepicker-monthpicker-buttons .x-btn {
+	margin: 0 2px 0 2px;
+}
+
+.x-sp-rbzq-datepicker-inner
+{
+	margin: 0px 20px 0px 25px;
+}
+
+
+.x-sp-rbzq-workpanel-toolbar {
+	background-color: #1864B1;
+	color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #787878;
+}
+
+.x-sp-rbzq-workpanel-title {
+	padding: 4px;
+	background: url(./workpanel_title.png);
+	color: #ffffff;
+	font: normal 18px 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+.x-sp-rbzq-workpanel-left
+{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #787878;
+}
+
+.x-sp-rbzq-workpanel-toolbaritem
+{
+	padding: 26px 0px 28px 0px;
+	color: #CCCCCC;
+	text-align: center;
+	font: normal 18px 微软雅黑, Arial, Helvetica, sans-serif;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: black;
+}
+
+.x-sp-rbzq-workpanel-toolbaritemhover
+{
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.x-sp-rbzq-workpanel-top
+{
+	background-color: #1864B1;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #787878;
+	color: white;
+}
+
+.x-sp-rbzq-workpanel-top-right
+{
+	background-color: #EDEDED;
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.x-sp-rbzq-workpanel-top-left
+{
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #787878;
+}
+.x-sp-rbzq-workpanel-top-leftitem
+{
+	padding: 13px 0px 0px 0px;
+	text-align: center;
+	font: normal 12px 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+
+.x-sp-rbzq-workpanel-top-leftitemhover
+{
+	color: red;
+	cursor: pointer;
+}
+
+
+.x-sp-rbzq-workpanel-logininfo
+{
+	background-image: url(./logininfo.png);
+}
+
+
+
+.x-sp-rbzq-info-title
+{
+    line-height: 12px;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(212, 245, 255);
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    height: 24px;
+    font-weight: bold;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 90px;
+}
+
+.x-sp-rbzq-info-text
+{
+    line-height: 12px;
+    vertical-align: middle;
+    font-size: 12px;
+    height: 24px;
+    text-align: left;
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.x-sp-rbzq-info-title1
+{
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(212, 245, 255);
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    font-weight: bold;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.x-sp-rbzq-info-text1
+{
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: left;
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+	white-space:normal; 
+	word-break : break-all; 
+}
+
+
+.x-sp-rbzq-combo-itemgroup
+{
+     background-color: #FAFAFA;
+     border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.x-sp-rbzq-combo-itemgroupitems
+{
+     border-color: #9BBBCA;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.x-sp-rbzq-combo-itemgroup-last
+{
+     background-color: #FAFAFA;
+     border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.x-sp-rbzq-combo-itemgroupitems-last
+{
+     border-color: #9BBBCA;
+}
+
+.x-sp-rbzq-combo-item
+{
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.x-sp-rbzq-combo-itemhaschild
+{
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-image: url(./arrowdown.png);
+}
+
+.x-sp-rbzq-combo-itemhover
+{
+    color: #F77D40;
+	cursor: pointer;
+}
+
+.x-sp-rbzq-combo-itemshowmenu
+{
+	
+}
+
+.x-sp-rbzq-workpanel-lefttoolbar
+{
+	background-color: #cccccc;
+}
+
+.x-sp-rbzq-workpanel-lefttoolbaritem
+{
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+}
+
+.x-sp-rbzq-workpanel-lefttoolbaritemhover
+{
+	color: #ffffff;
+	cursor: pointer;
+}
+
+
+.x-sp-rbzq-loginback
+{
+    background-image: url(./loginback.jpg);
+}
+
+.x-sp-rbzq-loginback-in
+{
+	background-image: url(./loginbackin.png);
+}
+
+
+.x-sp-rbzq-gzjl-filesbck
+{
+	background-color: #cccccc;
+}

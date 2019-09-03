@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="290px" height="360px" viewBox="0 0 290 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2">
+            <rect id="Rectangle-7-Copy-18" fill="#FFFFFF" x="0" y="0" width="290" height="360"></rect>
+            <g id="Group-8-Copy-7" transform="translate(0.000000, 214.000000)" fill="#6C536F">
+                <path d="M1.63727234e-14,66.6028161 C1.63727234e-14,66.6028161 29.1083066,99.3538795 64.4520186,99.3538795 C112.973407,99.3538795 99.8349488,33.7995746 148.941403,26.1825291 C182.645889,20.954528 199.286995,64.1816084 227.670148,32.3066489 C256.053301,0.431689383 290,0 290,0 L290,146 L0,146 L1.63727234e-14,66.6028161 Z" id="Chart-#2" opacity="0.100000001"></path>
+                <path d="M-1.08914853e-14,146 L-1.08914853e-14,80.680617 C-1.08914853e-14,80.680617 33.0307466,45 65.3398998,45 C113.756096,45 109.409059,108.269491 149.646116,108.269491 C189.883174,108.269491 188.919161,62.1870323 228.204181,62.1870323 C261.041645,62.1870323 290,85.400284 290,85.400284 L289.999999,146 L-1.08914853e-14,146 Z" id="Chart-#1" opacity="0.200000003"></path>
+            </g>
+        </g>
+    </g>
+</svg>

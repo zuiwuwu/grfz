@@ -1,0 +1,22 @@
+﻿body { font-size: 12px; margin: 0px; padding: 0px; }
+.parttitle { overflow: auto; border: 0px solid #99bbe8; border-top-width: 0px; border-bottom-width: 1px; height: 16px; }
+.leftbar { overflow: hidden; border: 1px solid #99bbe8; border-top-width: 1px; }
+.mainfrmbottom { overflow: auto; }
+.partitem { overflow: auto; width: 233px; height: 17px; padding: 5px; padding-left: 10px; border: 0px solid #99bbe8; cursor: pointer; text-align: left; background-position: bottom; background-image: url("/Content/base/images/space01.gif"); background-repeat: no-repeat; }
+.partitem_hover { background-image: url("/Content/themes/default/images/button_plain_hover.png"); background-repeat: repeat; }
+.partitem_sel { color: Red; }
+.leftbar_panel { overflow: auto; font-size: 12px; }
+.part-header { padding: 5px; line-height: 15px; color: White; font-weight: bold; font-size: 12px; background: url('/Content/themes/new/images/panel_title.png') repeat-x; position: relative; border: 0px solid #99BBE8; margin: 0px; }
+.part-panel-title { background: url('/Content/themes/new/images/blank.gif') no-repeat; }
+.part-panel-header-noborder { border-width: 0px; border-bottom: 1px solid #99BBE8; }
+.part-panel-body { overflow: auto; border: 1px solid #99BBE8; border-top-width: 0px; }
+.part-panel-body-noheader { border-top-width: 1px; }
+.part-panel-body-noborder { border-width: 0px; }
+.part-panel-with-icon { padding-left: 18px; }
+.part-panel-icon { position: absolute; left: 5px; top: 4px; width: 16px; height: 16px; }
+.part-panel-tool { position: absolute; right: 5px; top: 4px; }
+.part-panel-tool-btn { display: block; float: right; width: 16px; height: 16px; margin-left: 2px; cursor: pointer; opacity: 0.6; filter: alpha(opacity=60); }
+.part-panel-tool-over { opacity: 1; filter: alpha(opacity=100); }
+.part-panel-tool-collapse { background: url('/Content/themes/new/images/panel_tool_collapse.gif') no-repeat; }
+.part-panel-tool-expand { background: url('/Content/themes/new/images/panel_tool_expand.gif') no-repeat; }
+.part-panel-body { overflow: auto; border: 0px solid #99BBE8; border-top-width: 0px; }

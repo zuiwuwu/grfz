@@ -1,0 +1,35 @@
+.x-zhdd-tab-monitor { width: 98px; height: 38px; background-image: url(./tab.png); background-position: 0px 0px; color: White; filter: Dropshadow(offx=1,offy=1,color=#BABABA); text-shadow: 0 1px 0 #232323; font: normal 14px/16px ËÎÌו, Arial, Helvetica, sans-serif; line-height: 38px; vertical-align: middle; padding-left: 36px; }
+.x-zhdd-tab-monitor-hover { background-position: 0px -38px; }
+.x-zhdd-tab-monitor-checked { background-position: 0px 0px; }
+
+.x-zhdd-tab-video { width: 98px; height: 38px; background-image: url(./tab.png); background-position: -98px 0px; color: White; filter: Dropshadow(offx=1,offy=1,color=#BABABA); text-shadow: 0 1px 0 #232323; font: normal 14px/16px ËÎÌו, Arial, Helvetica, sans-serif; line-height: 38px; vertical-align: middle; padding-left: 36px; }
+.x-zhdd-tab-video-hover { background-position: -98px -38px; }
+.x-zhdd-tab-video-checked { background-position: -98px 0px; }
+
+.x-zhdd-tab-switch { width: 99px; height: 38px; background-image: url(./tab.png); background-position: -196px 0px; color: White; filter: Dropshadow(offx=1,offy=1,color=#BABABA); text-shadow: 0 1px 0 #232323; font: normal 14px/16px ËÎÌו, Arial, Helvetica, sans-serif; line-height: 38px; vertical-align: middle; padding-left: 36px; }
+.x-zhdd-tab-switch-hover { background-position: -196px -38px; }
+.x-zhdd-tab-switch-checked { background-position: -196px 0px; }
+
+.x-dwsection-thumb-wrap
+{
+    float: left;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    color: Blue;
+    text-decoration: underline;
+}
+.x-dwsection-thumb-wrap-hover{ cursor:pointer;}
+
+.x-gis-right-title
+{
+    background-color: rgb(213,221,243);
+    padding: 2px 0px 2px 4px;
+    color: #000080;
+    font-weight:bold;
+}
+
+.x-gis-showhide { width: 295px; height: 22px; background-image: url(uparrow.gif); }
+.x-gis-showhide-hover { background-image: url(uparrow_hover.gif); }
+.x-gis-showhide-checked { width: 295px; height: 22px; background-image: url(downarrow.gif); }
+.x-gis-showhide-checkedhover { background-image: url(downarrow_hover.gif); }

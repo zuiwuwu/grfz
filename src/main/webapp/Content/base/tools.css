@@ -1,0 +1,76 @@
+﻿.nav-notice { z-index: 1000; }
+.nav-notice a.tip-close { background: url("images-new.gif") no-repeat 0px -10px; margin: 0px; padding: 0px; top: 5px; width: 13px; height: 13px; right: 5px; overflow: hidden; text-decoration: none; display: block; position: absolute; z-index: 1001; }
+.nav-notice .tip-inner { width: 179px; color: rgb(136, 136, 136); position: relative; z-index: 1000; }
+.nav-notice .tip-inner .tip-arrow { left: 20px; top: -12px; position: absolute; z-index: 1001; }
+.nav-notice .tip-inner .tip-arrow em { width: 0px; height: 0px; line-height: 0; font-size: 0px; position: absolute; }
+.nav-notice .tip-inner .tip-arrow span { width: 0px; height: 0px; line-height: 0; font-size: 0px; position: absolute; }
+.nav-notice .tip-inner .arrow-down em { border-width: 7px; border-style: solid; border-color: transparent transparent rgb(232, 204, 161); top: -1px; _border-color: tomato; }
+.nav-notice .tip-inner .arrow-down span { border-width: 7px; border-style: solid; border-color: transparent transparent rgb(254, 253, 237); _border-color: tomato; }
+.nav-notice .tip-inner .tip-box { padding: 20px 0px 0px; border-radius: 2px; border: 1px solid rgb(232, 204, 161); width: 179px; text-align: left; color: rgb(136, 136, 136); position: relative; z-index: 1000; box-shadow: 2px 2px 4px rgba(0,0,0,0.15); background-color: rgb(254, 253, 237); -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); -khtml-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); -moz-border-radius: 2px; -khtml-border-radius: 2px; -webkit-border-radius: 2px; }
+.nav-notice .tip-inner .tip-box a { font: 12px/normal arial, 宋体, sans-serif, "Microsoft YaHei" , tahoma; margin: 0px; padding: 5px 10px 6px 9px; outline: 0px; color: rgb(45, 100, 179); text-decoration: none; display: block; position: relative; font-size-adjust: none; font-stretch: normal; }
+.nav-notice .tip-inner .tip-box a:link { font: 12px/normal arial, 宋体, sans-serif, "Microsoft YaHei" , tahoma; margin: 0px; padding: 5px 10px 6px 9px; outline: 0px; color: rgb(45, 100, 179); text-decoration: none; display: block; position: relative; font-size-adjust: none; font-stretch: normal; }
+.nav-notice .tip-inner .tip-box a:active { font: 12px/normal arial, 宋体, sans-serif, "Microsoft YaHei" , tahoma; margin: 0px; padding: 5px 10px 6px 9px; outline: 0px; color: rgb(45, 100, 179); text-decoration: none; display: block; position: relative; font-size-adjust: none; font-stretch: normal; }
+.nav-notice .tip-inner .tip-box a:visited { font: 12px/normal arial, 宋体, sans-serif, "Microsoft YaHei" , tahoma; margin: 0px; padding: 5px 10px 6px 9px; outline: 0px; color: rgb(45, 100, 179); text-decoration: none; display: block; position: relative; font-size-adjust: none; font-stretch: normal; }
+.nav-notice .tip-inner .tip-box a .num { color: rgb(255, 120, 0); font-weight: bold; }
+.nav-notice .tip-inner .tip-box a i { top: 6px; width: 13px; height: 13px; right: 6px; overflow: hidden; display: none; position: absolute; }
+.nav-notice .tip-inner .tip-box a:hover { cursor: pointer; background-color: rgb(251, 248, 223); }
+.nav-notice .tip-inner .tip-box a:hover i { background: url("images-new.gif") no-repeat 0px -26px; display: block; cursor: pointer; }
+.nav-notice .tip-box .tip-body { padding: 0px; border-top-color: rgb(249, 240, 220); border-bottom-color: rgb(249, 240, 220); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; zoom: 1; }
+.nav-notice #more-control-div { height: 15px; overflow: hidden; position: relative; cursor: pointer; }
+.nav-notice #more-control-div a { padding: 0px; outline: 0px; left: 82px; top: 1px; width: 13px; height: 13px; overflow: hidden; position: absolute; }
+.nav-notice #more-control-div .open { background: url("images-new.gif") no-repeat 0px -44px; }
+.nav-notice #more-control-div .close { background: url("images-new.gif") no-repeat 0px -60px; }
+.nav-notice .tip-shadow { padding: 1px; left: 2px; top: 2px; width: 0px; height: 0px; position: absolute; z-index: 999; }
+.nav-notice .ik-tip-radius b { background: url("images-new.gif") no-repeat 0px 0px; width: 2px; height: 2px; overflow: hidden; font-size: 0px; display: block; position: absolute; z-index: 1001; }
+.nav-notice .ik-tip-radius b.tl { left: 0px; }
+.nav-notice .ik-tip-radius b.tr { background-position: -5px 0px; right: -2px; _right: -1px; }
+.nav-notice .ik-tip-radius b.bl { background-position: 0px -5px; bottom: 0px; }
+.nav-notice .ik-tip-radius b.br { background-position: -5px -5px; right: -2px; bottom: 0px; _right: -1px; }
+.nav-notice-small a.tip-close { display: none; }
+.nav-notice-small .tip-inner .tip-box { padding-top: 5px; }
+.nav-notice-small .tip-box .tip-body { border-top-color: currentColor; border-top-width: 0px; border-top-style: none; }
+:root .nav-notice .tip-inner { width: 179px; }
+.task-guide { z-index: 1000; box-shadow: 2px 2px 3px rgba(0,0,0,0.2); -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); -khtml-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); }
+.task-guide .tip-inner { width: 240px; position: relative; z-index: 1000; }
+.task-guide .tip-inner .tip-body { padding: 5px 0px 0px; }
+.task-guide .tip-inner .tip-close { background: url("images/msg-new.gif") no-repeat 0px -77px; margin: 0px; padding: 0px; top: 10px; width: 13px; height: 13px; right: 10px; overflow: hidden; text-decoration: none; display: block; position: absolute; z-index: 1005; }
+.task-guide .tip-inner .tip-box { padding: 20px 0px 0px; border: 1px solid rgb(75, 159, 38); width: 238px; text-align: left; position: relative; z-index: 1001; background-color: rgb(255, 255, 255); }
+.task-guide .tip-inner .tip-box .task-guide-image { margin: 0px 14px; border: 0px currentColor; width: 210px; height: 70px; display: block; }
+.task-guide .tip-inner .tip-box .task-guide-title { margin: 4px 14px 0px 15px; padding: 0px; color: rgb(51, 51, 51); overflow: hidden; font-size: 12px; font-weight: bold; display: block; }
+.task-guide .tip-inner .tip-box .task-guide-text { margin: -2px 14px 0px 15px; padding: 0px; color: rgb(102, 102, 102); line-height: 20px; overflow: hidden; font-size: 12px; display: block; }
+.task-guide .tip-inner .tip-box .task-guide-link { margin: -1px 14px 8px 10px; text-align: right; }
+.task-guide .tip-inner .tip-box .task-guide-link a { color: rgb(45, 100, 179); font-size: 12px; text-decoration: none; }
+.task-guide .tip-inner .tip-shadow { left: 2px; top: 2px; width: 0px; height: 0px; position: absolute; z-index: 999; zoom: 1; background-color: rgb(204, 204, 204); }
+.ik-tip { z-index: 1000; }
+.ik-tip .tip-box { border: 1px solid rgb(209, 176, 124); text-align: left; color: rgb(136, 136, 136); position: relative; z-index: 1000; background-color: rgb(255, 255, 218); }
+.ik-tip .ik-tip-radius .tip-box { border-radius: 4px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; }
+.ik-tip .ik-tip-radius .tl { background: url("images/msg.gif") no-repeat; width: 2px; height: 2px; overflow: hidden; display: block; position: absolute; z-index: 1001; }
+.ik-tip .ik-tip-radius .tr { background: url("images/msg.gif") no-repeat; width: 2px; height: 2px; overflow: hidden; display: block; position: absolute; z-index: 1001; }
+.ik-tip .ik-tip-radius .bl { background: url("images/msg.gif") no-repeat; width: 2px; height: 2px; overflow: hidden; display: block; position: absolute; z-index: 1001; }
+.ik-tip .ik-tip-radius .br { background: url("images/msg.gif") no-repeat; width: 2px; height: 2px; overflow: hidden; display: block; position: absolute; z-index: 1001; }
+.ik-tip .ik-tip-radius .tr { background-position: -5px 0px; right: 0px; }
+.ik-tip .ik-tip-radius .bl { background-position: 0px -5px; bottom: 0px; }
+.ik-tip .ik-tip-radius .br { background-position: -5px -5px; right: 0px; bottom: 0px; }
+.ik-tip .ik-tip-shadow .tip-box { box-shadow: 1px 1px 2px rgba(0,0,0,0.3); -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); -khtml-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); }
+.ik-tip .ik-tip-shadow .tip-shadow { padding: 1px; right: -2px; bottom: -2px; position: absolute; z-index: 999; background-color: rgb(238, 238, 238); }
+.ik-tip .ik-tip-shadow .tip-shadow div { width: 100%; height: 100%; background-color: rgb(221, 221, 221); }
+.ik-tip a.tip-close { top: 4px; right: 4px; line-height: 100%; font-family: SimSun; font-size: 16px; text-decoration: none; position: absolute; z-index: 1002; }
+.ik-tip a.tip-close:link { color: rgb(0, 0, 0); text-decoration: none; }
+.ik-tip a.tip-close:visited { color: rgb(0, 0, 0); text-decoration: none; }
+.ik-tip a.tip-closehover { color: rgb(209, 176, 124); text-decoration: none; }
+.ik-tip .tip-arrow { position: absolute; z-index: 1001; }
+.ik-tip .tip-arrow em { border: 7px solid transparent; width: 0px; height: 0px; position: absolute; _border-color: tomato; _line-height: 0; _font-size: 0; }
+.ik-tip .tip-arrow span { border: 7px solid transparent; width: 0px; height: 0px; position: absolute; _border-color: tomato; _line-height: 0; _font-size: 0; }
+.ik-tip .arrow-down { left: 20px; top: -12px; }
+.ik-tip .arrow-down em { top: -1px; border-bottom-color: rgb(209, 176, 124); border-bottom-width: 7px; border-bottom-style: solid; }
+.ik-tip .arrow-down span { top: 0px; border-bottom-color: rgb(255, 255, 218); border-bottom-width: 7px; border-bottom-style: solid; }
+.ik-tip .arrow-up { left: 20px; bottom: -12px; }
+.ik-tip .arrow-up em { bottom: -1px; border-top-color: rgb(209, 176, 124); border-top-width: 7px; border-top-style: solid; }
+.ik-tip .arrow-up span { bottom: 0px; border-top-color: rgb(255, 255, 218); border-top-width: 7px; border-top-style: solid; }
+.ik-tip .arrow-left { top: 15px; right: -12px; }
+.ik-tip .arrow-left em { right: -1px; border-left-color: rgb(209, 176, 124); border-left-width: 7px; border-left-style: solid; }
+.ik-tip .arrow-left span { right: 0px; border-left-color: rgb(255, 255, 218); border-left-width: 7px; border-left-style: solid; }
+.ik-tip .arrow-right { left: -12px; top: 15px; }
+.ik-tip .arrow-right em { left: -1px; border-right-color: rgb(209, 176, 124); border-right-width: 7px; border-right-style: solid; }
+.ik-tip .arrow-right span { left: 0px; border-right-color: rgb(255, 255, 218); border-right-width: 7px; border-right-style: solid; }
+.ik-tip .tip-body { padding: 8px; }

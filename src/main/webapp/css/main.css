@@ -1,0 +1,232 @@
+.x-sp-main-title {
+	background-color: #0099CC;
+}
+
+.x-sp-main-title-logo{
+	background-image: url(../images/main/videologo.png);
+	background-position: center;
+    cursor: pointer;
+    background-color: #0087B4;
+}
+
+.x-sp-main-top-lefttext {
+	color: white;
+	font-size: 20px;
+    line-height: 50px;
+    vertical-align: middle;
+    background-color: #0087B4;
+    border-right: 1px solid #008FBF;
+    text-align: center;
+}
+
+
+.x-sp-main-top-btn {
+    color: white;
+    font-size: 14px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #09c;
+    cursor: pointer;
+    border-right: 1px solid #008FBF;
+    text-align: center;
+}
+.x-sp-main-top-right-btn-menu {
+    color: white;
+    font-size: 14px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #09c;
+    cursor: pointer;
+    border-left: 1px solid #008FBF;
+    text-align: center;
+}
+
+.x-sp-main-top-right-btn-menu-hover,
+.x-sp-main-top-btn-hover {
+    background-color: #008FBF;
+}
+
+.x-sp-main-top-btn-sel {
+    background-color: #0087B4;
+}
+
+.x-sp-menufrm-bk {
+    background-color: #293038;
+}
+.x-sp-menufrm-abs {
+    background-color: #293038;
+    overflow: hidden;
+}
+.x-sp-menufrm-body {
+    background-color: #293038;
+    overflow: hidden;
+}
+
+.x-sp-menufrm-collapse {
+    background-image: url(../images/main/collapse.png);
+    background-position: center;
+    cursor: pointer;
+}
+.x-sp-menufrm-collapse-hover {
+   
+}
+
+
+.x-sp-menufrm-firstmenu {
+    background-color: #22282E;
+    color: white;
+    font-size: 12px;
+    line-height: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.x-sp-menufrm-firstmenu-iconbk {
+    background-image: url(../images/main/down.png);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-left: 19px;
+    margin-top: 14px;
+    margin-right: 5px;
+    margin-bottom: 14px;
+}
+
+.x-sp-menufrm-firstmenu-icon {
+    width: 12px;
+    height: 12px;
+}
+
+
+.x-sp-menufrm-firstmenu-hover {
+    background-color: #22282E;
+}
+
+.x-sp-menufrm-firstmenu-collapse {
+    background-color: #37424F;
+    border-bottom: 1px solid #414D5C;
+}
+
+.x-sp-menufrm-firstmenu-iconbk-expand{
+    background-image: url(../images/main/right.png);
+}
+
+.x-sp-menufrm-secondmenu-body{
+    background-color: transparent;
+}
+
+.x-sp-menufrm-secondmenu {
+    background-color: #293038;
+    color: white;
+    font-size: 12px;
+    line-height: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+.x-sp-menufrm-secondmenu-hover {
+    background-color: #37424F;
+}
+
+.x-sp-menufrm-secondmenu-text {
+    width: 130px;
+    height: 40px;
+    float: left;
+}
+.x-sp-menufrm-secondmenu-iconbk {
+    background-image: url(../images/main/icon16.png);
+    background-position: -16px -16px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: 17px;
+    margin-top: 11px;
+    margin-right: 17px;
+    margin-bottom: 11px;
+}
+
+.x-sp-menufrm-secondmenu-icon {
+    background-image: url(../images/main/icon16.png);
+    background-position: -16px -16px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+
+.x-sp-menufrm-secondmenu-sel {
+    background-color: #0099cc;
+}
+
+.x-sp-main-toolbar {
+    background-color: #FAFAFA;
+    border: 1px solid #E6E6E7;
+    -moz-border-radius: 2px;      /* Gecko browsers */
+    -webkit-border-radius: 2px;   /* Webkit browsers */
+    border-radius:2px;            /* W3C syntax */
+}
+
+
+.x-sp-main-grid {
+    background-color: #FAFAFA;
+    border: 1px solid #E6E6E7;
+    -moz-border-radius: 2px;      /* Gecko browsers */
+    -webkit-border-radius: 2px;   /* Webkit browsers */
+    border-radius:2px;            /* W3C syntax */
+}
+
+.x-sp-main-dlgbk {
+    background-color: #FAFAFA;
+    border: 1px solid #E6E6E7;
+}
+
+.x-sp-main-dlg {
+    border: 1px solid #CCCCCC;
+    background-color: white;
+}
+
+.x-sp-main-dlg-title
+{
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+    background-color: #f8fafe;
+    border-bottom:  1px solid #CCCCCC;
+}
+.x-sp-main-dlg-bottom
+{
+
+}
+
+.x-window-default
+{
+	border-width: 5px;
+}
+
+.x-grfz-searchbutton
+{   background-color: #FCA104;
+	font-family: .PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    etter-spacing: 1.03px;
+}
+.x-sp-yjyd-map-button-roundButton{
+	
+	background-color:#FCA104;
+	line-height: 30px;/*字体距上放的距离*/
+	text-align:center;/*文字水平居中显示*/
+	font-size:14px;
+	color: #FFFFFF;
+    etter-spacing: 1.03px;
+}
+.x-sp-main-menu-container{
+	overflow:hidden; /*当元素超出容器时，是否隐藏*/
+}

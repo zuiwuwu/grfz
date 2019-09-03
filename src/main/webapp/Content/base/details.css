@@ -1,0 +1,19 @@
+﻿* { margin: 0px; padding: 0px; }
+body { width: 100%; height: 100%; background-color: #f7f7f7; }
+#properytForm { width: 1050px; position: relative; margin: 0 auto; }
+#detailBtns { width: 100%; height: 42px; position: fixed; min-width: 1050px; background: url('images/top_nav_menu.gif') repeat-x center center; clear: both; bottom: 0px; left: 0px; text-align: center; }
+#buttonlist { margin-top: 10px; }
+#legendInfo { font-size: 30px; color: Green; }
+tr input { width: 120px; }
+.left { width: 510px; height: 420px; vertical-align: top; position: absolute; top: 0px; left: 0px; padding: 0px; overflow: hidden; }
+.right { width: 530px; height: 420px; vertical-align: top; position: absolute; top: 0px; right: 0px; padding: 0px; }
+.pic { height: 400px; width: 530px; vertical-align: top; padding: 0px; margin: 0px; }
+.button { height: 20px; padding: 0px; margin: 0px; }
+.view { height: 185px; padding: 0px; margin: 0px; }
+.td-head { width: 100px; background: #eeeeee; }
+.td-data { width: 150px; }
+.portal-column { padding: 0px; }
+.cljlxx { overflow: hidden; }
+.cljlxx td { padding-left: 2px; border-bottom: #8cacbb 1px solid; border-left: #8cacbb 1px solid; }
+.panel-header { background-image: none; color: Black; height: 20px; }
+.panel-body { border-bottom: 0px; border-left: 0px; }

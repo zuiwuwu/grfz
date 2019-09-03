@@ -1,0 +1,257 @@
+
+/* line 1, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-body { background: white; border-width: 1px; border-style: solid; border-color: #d0d0d0; }
+
+/* line 8, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-empty { padding: 10px; color: gray; background-color: white; font: normal 11px tahoma, arial, verdana, sans-serif; }
+
+/* line 15, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-cell { color: none; font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,sans-serif;font-size: 12px; border-color: #E6E6E7 #E6E6E7 #E6E6E7 #ffffff; border-style: solid; }
+/* line 115, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-row-lines .x-spgrid-td { border-top-width: 1px; border-bottom-width: 1px; border-bottom-color: transparent; }
+/* line 26, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-alt .x-spgrid-td { background-color: none }
+
+
+/* line 30, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-before-over .x-spgrid-td { border-bottom-style: solid; border-bottom-color: #dddddd; }
+/* line 35, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-over .x-spgrid-td { border-top-width: 1px; border-bottom-width: 1px; }
+/* line 40, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-before-selected .x-spgrid-td { border-bottom-style: dotted; border-bottom-color: #bfb8b8; }
+/* line 45, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-selected .x-spgrid-td { border-bottom-style: dotted; border-bottom-color: #bfb8b8; }
+/* line 50, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-before-focused .x-spgrid-td { border-bottom-style: dotted; border-bottom-color: #464646; }
+/* line 58, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-focused .x-spgrid-td { background-color: #efefef; }
+/* line 65, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-over .x-spgrid-td { background-color: #efefef; }
+/* line 73, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-selected .x-spgrid-td { background-color: #FCE6A2; background-image: none; }
+/* line 82, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-focused .x-spgrid-td { border-bottom-style: dotted; border-bottom-color: #464646; border-bottom-width: 0px; }
+/* line 92, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-table .x-spgrid-row-focused-first .x-spgrid-td { border-top: 0px dotted #464646; }
+/* line 103, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-selected .x-spgrid-row-summary .x-spgrid-td { border-bottom-color: #e0e0e0; border-top-width: 0; }
+/* line 108, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-focused .x-spgrid-row-summary .x-spgrid-td { border-bottom-color: #efefef; border-top-width: 0; }
+
+
+/* line 121, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-row-lines .x-spgrid-table { border-bottom: 1px solid #E6E6E7; }
+/* line 125, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-row-lines .x-spgrid-table-over-first { border-top-style: solid; border-top-color: #dddddd; }
+/* line 130, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-row-lines .x-spgrid-table-selected-first { border-top-style: dotted; border-top-color: #E6E6E7; }
+
+/* line 139, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-body .x-spgrid-table-focused-first { border-top: 0px dotted #464646; }
+
+/* line 149, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-cell-inner { text-overflow: ellipsis; padding: 0px 6px 0px 6px; line-height: 38px; text-align: center; vertical-align: middle; border-spacing: 0px; }
+
+/* line 163, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-no-row-lines .x-spgrid-row-focused .x-spgrid-cell-inner { padding-top: 1px; padding-bottom: 1px; }
+
+/* line 178, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-cell-special { /*border-color: #ededed #c6c6c6 #ededed #c6c6c6;   border-style: solid;   border-right-width: 1px;   background-image: none;*/ }
+/* line 191, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row-selected .x-spgrid-cell-special { border-right-color:  #d4b7b7; }
+/* line 206, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-nlg .x-spgrid-cell-special { background-repeat: repeat-y; background-image: url(../images/ext/cell-special-bg.gif); }
+/* line 211, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-nlg .x-spgrid-row-selected .x-spgrid-cell-special { background-image: url(../images/ext/cell-special-selected-bg.gif); }
+/* line 78, ../../../ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-spgrid-cell-special .x-spgrid-cell-special:after { display: none; content: "x-slicer:bg:url(../mages/ext/cell-special-bg.gif)"; }
+/* line 78, ../../../ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-spgrid-cell-special .x-spgrid-cell-special-selected:after { display: none; content: "x-slicer:bg:url(i../mages/ext/cell-special-selected-bg.gif)"; }
+
+/* line 228, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-dirty-cell { background: url(../images/ext/dirty.gif) no-repeat 0 0; }
+
+/* line 241, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-row .x-spgrid-cell-selected { color: null; background-color: #b8cfee; }
+
+/* line 247, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-with-col-lines .x-spgrid-cell { border-right-width: 1px; border-left-width: 1px; }
+
+/* line 259, ../../../ext-theme-neutral/sass/src/panel/Table.scss */
+.x-spgrid-resize-marker { width: 1px; background-color: #0f0f0f; }
+
+/* line 1, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-spgrid-drop-indicator { position: absolute; height: 1px; line-height: 0px; background-color: #77BC71; overflow: visible; pointer-events: none; }
+/* line 9, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-spgrid-drop-indicator .x-spgrid-drop-indicator-left { position: absolute; top: -8px; left: -12px; background-image: url(../images/ext/dd-insert-arrow-right.png); height: 16px; width: 16px; }
+/* line 18, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-spgrid-drop-indicator .x-spgrid-drop-indicator-right { position: absolute; top: -8px; right: -11px; background-image: url(../images/ext/dd-insert-arrow-left.png); height: 16px; width: 16px; }
+
+/* line 29, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-ie6 .x-spgrid-drop-indicator-left { background-image: url(../images/ext/dd-insert-arrow-right.gif); }
+/* line 33, ../../../ext-theme-neutral/sass/src/view/DropZone.scss */
+.x-ie6 .x-spgrid-drop-indicator-right { background-image: url(../images/ext/dd-insert-arrow-left.gif); }
+
+/* line 2, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-row, .x-spgrid-data-row { outline: none; height: 38px;}
+
+/* line 6, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-view { overflow: hidden; position: relative; }
+
+/* line 11, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-table { table-layout: fixed; border-collapse: separate; }
+
+/* line 16, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-td { overflow: hidden; border-width: 0; vertical-align: top; }
+
+/* line 22, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-cell-inner { overflow: hidden; white-space: nowrap; zoom: 1; }
+
+/* line 28, ../../../ext-theme-base/sass/src/panel/Table.scss */
+.x-spgrid-resize-marker { position: absolute; z-index: 5; top: 0; }
+
+/* line 1, ../../../ext-theme-base/sass/src/spgrid/header/Container.scss */
+.x-spgrid-header-ct { cursor: default; background-color: #F5F6FA; }
+
+/* line 1, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-spcolumn-header { position: absolute; overflow: hidden; background-repeat: repeat-x; height: 38px; color: #999999; border-right: 1px solid transparent; border-left: 1px solid transparent; }
+
+/* line 7, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-inner { zoom: 1; white-space: nowrap; position: relative; overflow: hidden; }
+
+.x-spcolumn-header-first { border-left: 0px; }
+
+.x-spcolumn-header-last { border-right: 0px; }
+/* line 14, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-text { white-space: nowrap; background-repeat: no-repeat; zoom: 1; display: inline-block; line-height: 38px; vertical-align: middle; font-weight: bold;}
+
+/* line 25, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-trigger { display: none; height: 100%; background-repeat: no-repeat; position: absolute; right: 0; top: 0; z-index: 2; }
+
+.x-spcolumn-header-trigger { background-color: #c5c5c5; }
+
+
+/* line 70, ../../../ext-theme-neutral/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-open { background-color: #c5c5c5; }
+/* line 73, ../../../ext-theme-neutral/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-open .x-spcolumn-header-trigger { background-color: transparent; }
+
+/* line 78, ../../../ext-theme-neutral/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-trigger { width: 18px; cursor: pointer; background-color: transparent; background-position: center center; border-left: 1px solid #c5c5c5;background-image: url(../images/ext/hd-pop.png);}
+
+/* line 43, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-over .x-spcolumn-header-trigger, .x-spcolumn-header-open .x-spcolumn-header-trigger { display: block; }
+
+/* line 48, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-align-right { text-align: right; }
+
+/* line 58, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-align-left { text-align: left; }
+
+/* line 68, ../../../ext-theme-base/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-align-center { text-align: center; }
+
+/* line 1, ../../../ext-theme-base/sass/src/grid/column/Action.scss */
+.x-spgrid-cell-inner-action-col { line-height: 0; font-size: 0; }
+
+/* line 1, ../../../ext-theme-base/sass/src/grid/column/CheckColumn.scss */
+.x-spgrid-cell-inner-checkcolumn { line-height: 0; font-size: 0; }
+
+/* line 1, ../../../ext-theme-base/sass/src/grid/column/RowNumberer.scss */
+.x-sprow-numberer .x-spcolumn-header-inner { text-overflow: clip; }
+
+/* line 3, ../../../ext-theme-base/sass/src/grid/feature/Grouping.scss */
+.x-spgrid-group, .x-spgrid-group-body, .x-spgrid-group-hd { zoom: 1; }
+
+/* line 7, ../../../ext-theme-base/sass/src/spgrid/feature/Grouping.scss */
+.x-spgrid-group-hd { white-space: nowrap; }
+
+/* line 11, ../../../ext-theme-base/sass/src/spgrid/feature/Grouping.scss */
+.x-spgrid-row-body-hidden, .x-spgrid-group-collapsed { display: none; }
+
+/* line 1, ../../../ext-theme-base/sass/src/spgrid/feature/RowBody.scss */
+.x-spgrid-rowbody { zoom: 1; }
+
+/* line 5, ../../../ext-theme-base/sass/src/spgrid/feature/RowBody.scss */
+.x-spgrid-row-body-hidden { display: none; }
+
+/* line 3, ../../../ext-theme-base/sass/src/spgrid/feature/RowWrap.scss */
+td.x-spgrid-rowwrap .x-spgrid-table { border: 0; }
+/* line 6, ../../../ext-theme-base/sass/src/spgrid/feature/RowWrap.scss */
+td.x-spgrid-rowwrap .x-spgrid-cell { border-bottom: 0; background-color: transparent; }
+
+/* line 2, ../../../ext-theme-base/sass/src/spgrid/plugin/Editing.scss */
+.x-spgrid-editor .x-form-cb-wrap { text-align: center; }
+
+/* line 9, ../../../ext-theme-base/sass/src/spgrid/plugin/Editing.scss */
+.x-spgrid-editor .x-form-display-field { margin: 0; white-space: nowrap; overflow: hidden; }
+/* line 17, ../../../ext-theme-base/sass/src/spgrid/plugin/Editing.scss */
+.x-spgrid-editor div.x-form-action-col-field { line-height: 0; }
+
+/* line 1, ../../../ext-theme-base/sass/src/spgrid/plugin/RowEditing.scss */
+.x-spgrid-row-editor { position: absolute; overflow: visible; z-index: 1; }
+
+/* line 7, ../../../ext-theme-base/sass/src/spgrid/plugin/RowEditing.scss */
+.x-spgrid-row-editor-buttons { position: absolute; white-space: nowrap; }
+
+/* line 1, ../../../ext-theme-base/sass/src/spgrid/plugin/RowExpander.scss */
+.x-spgrid-row-expander { font-size: 0; line-height: 0; }
+
+/* line 34, ../../../ext-theme-neutral/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-inner { padding: 0px 6px 0px 6px; text-overflow: ellipsis; height: 100%; }
+
+.x-spgrid-row-checker { margin-top: 2px; height: 13px; width: 13px; background-image: url(../Extjs/ext/resources/ext-theme-access/images/form/checkbox1.gif); line-height: 13px; }
+
+
+.x-spcolumn-header-checkbox .x-spcolumn-header-text { margin-top: 12px; height: 13px; width: 13px; background-image: url(../Extjs/ext/resources/ext-theme-access/images/form/checkbox1.gif); line-height: 13px; }
+
+
+.x-spgrid-cell-row-checker { vertical-align: middle; background-repeat: no-repeat; font-size: 0; }
+
+.x-spgrid-hd-checker-on .x-spcolumn-header-text, .x-spgrid-row-selected .x-spgrid-row-checker, .x-spgrid-row-checked .x-spgrid-row-checker { background-position: 0 -13px; }
+
+
+.x-spgrid-with-row-lines .x-spgrid-cell-first { border-left-width: 0px;  }
+
+.x-spgrid-with-row-lines .x-spgrid-cell-last { border-right-width: 0px; }
+
+.x-spgrid-row-first .x-spgrid-td
+{
+    border-top-color: transparent; 
+}
+
+
+.x-spgrid-cell-inner-action-col { padding: 10px 4px 10px 4px; }
+/* line 5, ../../../ext-theme-neutral/sass/src/grid/column/Action.scss */
+.x-spgrid-no-row-lines .x-spgrid-row-focused .x-spgrid-cell-inner-action-col { padding-top: 1px; padding-bottom: 1px; }
+
+.x-spaction-col-icon { height: 16px; width: 16px; cursor: pointer; }
+
+
+.x-spcolumn-header-over, .x-spcolumn-header-sort-ASC, .x-spcolumn-header-sort-DESC { background-color: #E6E6E7; }
+
+.x-spcolumn-header-sort-ASC .x-spcolumn-header-text { background-image: url(../images/ext/sort_asc.png); }
+
+.x-spcolumn-header-sort-ASC .x-spcolumn-header-text, .x-spcolumn-header-sort-DESC .x-spcolumn-header-text { padding-right: 12px; background-position: right center; }
+/* line 130, ../../../ext-theme-neutral/sass/src/grid/column/Column.scss */
+.x-spcolumn-header-sort-DESC .x-spcolumn-header-text { background-image: url(../images/ext/sort_desc.png); }
+
+
+/* line 1, ../../../../../../packages/ext-theme-neutral/sass/src/grid/column/CheckColumn.scss */
+.x-spgrid-cell-inner-checkcolumn { padding: 7px 10px 4px 10px; }
+
+/* line 12, ../../../../../../packages/ext-theme-neutral/sass/src/grid/column/CheckColumn.scss */
+.x-spgrid-checkcolumn { width: 13px; height: 13px; background: url(../images/ext/checkbox.gif) 0 0 no-repeat; }
+/* line 17, ../../../../../../packages/ext-theme-neutral/sass/src/grid/column/CheckColumn.scss */
+.x-item-disabled .x-spgrid-checkcolumn { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30); opacity: 0.3; }
+
+/* line 22, ../../../../../../packages/ext-theme-neutral/sass/src/grid/column/CheckColumn.scss */
+.x-spgrid-checkcolumn-checked { background-position: 0 -13px; }
+
+.x-spaction-col-icon-span { height: 16px; line-height: 16px; font-size: 12px; vertical-align: middle; display: inline-block; cursor: pointer; color: Blue; margin-right: 5px;  background-repeat: no-repeat;}
+.x-spaction-col-icon-text{height: 16px; line-height: 16px;  }
+.x-spaction-col-icon-image{padding-left: 18px; }
+.x-sppagging
+{
+
+}

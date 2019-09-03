@@ -1,0 +1,173 @@
+.x-map-panelmove { background-image: url(./mapctrls2d0.png); background-repeat:no-repeat;}
+.x-map-panelmove-up { background-image: url(./mapctrls2d0.png); background-position: 0px -44px; background-repeat:no-repeat;}
+.x-map-panelmove-right { background-image: url(./mapctrls2d0.png); background-position: 0px -88px; background-repeat:no-repeat;}
+.x-map-panelmove-down { background-image: url(./mapctrls2d0.png); background-position: 0px -132px; background-repeat:no-repeat;}
+.x-map-panelmove-left { background-image: url(./mapctrls2d0.png); background-position: 0px -176px; background-repeat:no-repeat;}
+
+.x-map-zoomslider-bk { background-image: url(./mapctrls2d0.png); background-position: -24px -227px; background-repeat:no-repeat;}
+.x-map-zoomslider { background-image: url(./mapctrls2d0.png); background-position: -24px -227px; background-repeat:no-repeat;}
+.x-map-zoomslider-end { padding-bottom: 7px; padding-top: 7px;}
+
+.x-map-zoomslider-inner { position: relative; height: 108px; }
+
+.x-map-zoomslider-thumb { position: absolute; background: url(./mapctrls2d0.png) no-repeat 0px -309px; width: 19px; height: 10px; margin-left: -6px; cursor: pointer; margin-top: 7px;}
+
+.x-map-zoomslider-thumb-over { background: url(./mapctrls2d0.png) no-repeat 0px -320px; }
+
+.x-map-zoomadd { background: url(./mapctrls2d0.png) no-repeat -1px -221px; }
+.x-map-zoomsub { background: url(./mapctrls2d0.png) no-repeat -1px -265px; }
+
+
+.x-map-qj { background-image: url(../fam/qiang_normal.png); background-repeat:no-repeat; width: 16px; height: 16px; margin-top: -8px; margin-left: -8px;}
+.x-map-qj-hover { background-image: url(../fam/qiang_normal.png); background-repeat:no-repeat; width: 16px; height: 16px; margin-top: -8px; margin-left: -8px;}
+
+.x-map-car { background-image: url(./car.png); background-repeat:no-repeat; width: 40px; height: 40px; margin-top: -20px; margin-left: -20px;}
+
+.x-map-maptypebar { z-index: 10001;}
+.x-map-maptype { background: url(./mapctrls2d0.gif) no-repeat 0px -177px;width: 44px; height: 46px; }
+.x-map-maptype-checked { background: url(./mapctrls2d0.gif) no-repeat 0px -222px;width: 44px; height: 46px; }
+
+
+.x-map-house { background-image: url(../fam/Home.png); background-repeat:no-repeat; width: 16px; height: 16px; margin-top: -8px; margin-left: -8px;}
+
+.x-dw { background-image: url(./dw/normal.png); background-repeat:no-repeat; width: 16px; height: 16px;  margin-top: -16px; margin-left: -8px;}
+.x-dw-hover { background-image: url(./dw/hover.png); background-repeat:no-repeat; width: 16px; height: 16px;  margin-top: -16px; margin-left: -8px;}
+.x-dw-dis { background-image: url(./dw/trouble.png); background-repeat:no-repeat; width: 16px; height: 16px;  margin-top: -16px; margin-left: -8px;}
+.x-dw-dis-hover { background-image: url(./dw/hover.png); background-repeat:no-repeat; width: 16px; height: 16px;  margin-top: -16px; margin-left: -8px;}
+
+.x-dw-focus{ background-image: url(./sel.png); background-repeat:no-repeat; width: 20px; height: 25px;  margin-top: -25px; margin-left: -10px;}
+
+.x-dw-qj { background-image: url(../fam/qiang_normal.png); background-repeat:no-repeat; width: 16px; height: 16px; margin-top: -8px; margin-left: -8px; }
+.x-dw-qj-hover { background-image: url(../fam/qiang_normal.png); background-repeat:no-repeat; width: 16px; height: 16px; margin-top: -8px; margin-left: -8px; }
+.x-dw-qj-dis { background-image: url(../fam/qiang_disconnect.png); background-repeat:no-repeat; width: 16px; height: 16px; margin-top: -8px; margin-left: -8px; }
+.x-dw-qj-dis-hover { background-image: url(../fam/qiang_disconnect.png); background-repeat:no-repeat; width: 16px; height: 16px;  margin-top: -8px; margin-left: -8px;}
+
+.x-showdwinfo { border:1px solid #ccc; background-color: White; }
+.x-showdwinfo-top { border-bottom:1px solid #ccc;line-height: 30px; background-color: rgb(249, 249, 249); padding-left: 8px;white-space: nowrap;overflow: hidden;font-size: 14px;font-weight: 700;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.x-showdwinfo-bottom { border-top:1px solid #ccc;background-color: rgb(249, 249, 249);}
+.x-showdwinfo-pos { background-image: url(iw_tail.png); background-repeat:no-repeat;position: absolute;}
+.x-showdwinfo-text { line-height: 23px; padding-left: 8px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+.x-map-close { background: url(./iw_close.gif) no-repeat; }
+
+.x-map-distance-pointer { position: absolute;background-image: url(mapctrls2d0.gif); width: 11px; height: 11px; background-repeat: no-repeat; background-position: -15px -1px;}
+.x-map-distance-text { position: absolute;height: 20px; line-height: 17px;text-align: left;white-space: nowrap; border: 1px solid rgb(51, 51, 51); padding: 0px 4px 0px 4px;}
+.x-map-distance-close { position: absolute;background-image: url(mapctrls2d0.gif); width: 12px; height: 12px; background-repeat: no-repeat; background-position: 0px -14px; cursor:pointer;}
+
+.x-map-layeritem-thumb-wrap
+{
+    float: left;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    color: Blue;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.x-map-layeritem-thumb-wrap-hover{ }
+.x-map-layeritem-thumb-wrap-selected{ }
+.x-map-layeritem-thumb-wrap-show{color: Red; }
+.x-map-layeritem {
+height: 16px;
+text-overflow: ellipsis;
+}
+
+
+.x-map-policecar-track { background-image: url(./marker.png); background-position: -200px -126px; background-repeat:no-repeat; margin: 0px 1px 0px 1px;}
+.x-map-policecar-track-checked { background-image: url(./marker.png); background-position: -218px -126px; background-repeat:no-repeat; margin: 0px 1px 0px 1px;}
+.x-map-policecar-hitrack { background-image: url(./marker.png); background-position: -200px -126px; background-repeat:no-repeat; margin: 0px 1px 0px 1px;}
+.x-map-policecar-hitrack-checked { background-image: url(./marker.png); background-position: -218px -126px; background-repeat:no-repeat; margin: 0px 1px 0px 1px;}
+.x-map-policecar-close { background: url(./iw_close.gif) no-repeat; margin: 4px 1px 0px 4px; }
+.x-map-policecar-sms { background-image: url(./marker.png); background-position: -164px -18px; background-repeat:no-repeat; margin: 0px 1px 0px 1px;}
+.x-map-policecar-dial { background-image: url(./marker.png); background-position: -218px -108px; background-repeat:no-repeat; margin: 0px 1px 0px 1px;}
+
+.x-map-addcase { background-image: url(./label.png); background-position: -46px 0px; background-repeat:no-repeat;}
+.x-map-addcasetip{ background-color: White; border: 1px solid Red;}
+.x-gis-toolbar-addlabel { text-align: center; background: url(../zhdd/home.png) no-repeat 0px 0px; }
+.x-gis-toolbar-addlabel-hover { text-align: center; background: url(../zhdd/home_hover.png) no-repeat 0px 0px; }
+
+
+.x-map-label01 { background: url(label.png) no-repeat 0px 0px; }
+
+
+.x-map-sel { border: 1px solid blue;}
+
+.x-xcdw { background-image: url(point.png); background-repeat:no-repeat; width: 40px; height: 34px;  margin-top: -33px; margin-left: -14px;}
+.x-xcdw1 { background-image: url(1.png); background-repeat:no-repeat; width: 40px; height: 34px;  margin-top: -33px; margin-left: -14px;}
+.x-xcdw2 { background-image: url(2.png); background-repeat:no-repeat; width: 40px; height: 34px;  margin-top: -33px; margin-left: -14px;}
+.x-xcdw3 { background-image: url(3.png); background-repeat:no-repeat; width: 40px; height: 34px;  margin-top: -33px; margin-left: -14px;}
+
+.x-map-camera { background-image: url(./marker.png); background-position: -254px -36px; background-repeat:no-repeat; margin: 0px 1px 0px 1px;}
+.x-map-playback { background-image: url(./marker.png); background-position: -200px -108px; background-repeat:no-repeat; margin: 0px 1px 0px 1px;}
+
+.x-map-split1 { background-image: url(./videosplit.png); background-position: 0px 0px; background-repeat:no-repeat; width: 24px; height: 24px; margin: 0px 2px 0px 2px;}
+.x-map-split4 { background-image: url(./videosplit.png); background-position: -25px 0px; background-repeat:no-repeat; width: 24px; height: 24px; margin: 0px 2px 0px 2px;}
+.x-map-split9 { background-image: url(./videosplit.png); background-position: -50px 0px; background-repeat:no-repeat; width: 24px; height: 24px; margin: 0px 2px 0px 2px;}
+.x-map-split16 { background-image: url(./videosplit.png); background-position: -75px 0px; background-repeat:no-repeat; width: 24px; height: 24px; margin: 0px 2px 0px 2px;}
+.x-map-split25 { background-image: url(./videosplit.png); background-position: -100px 0px; background-repeat:no-repeat; width: 24px; height: 24px; margin: 0px 2px 0px 2px;}
+.x-map-split36 { background-image: url(./videosplit.png); background-position: -125px 0px; background-repeat:no-repeat; width: 24px; height: 24px; margin: 0px 2px 0px 2px;}
+
+
+.x-map-arrive { background-image: url(./kakou1.png); background-repeat:no-repeat; width: 32px; height: 32px; margin-top: -32px; margin-left: -16px;}
+.x-map-notarrive { background-image: url(./kakou.png); background-repeat:no-repeat; width: 32px; height: 32px; margin-top: -32px; margin-left: -16px;}
+
+.x-map-ajyp-tl {
+    overflow:hidden;
+    white-space:nowrap;
+	text-overflow: ellipsis;
+	line-height: 20px;
+	vertical-align:middle;
+}
+
+.x-map-ajyp-tl-img {
+    width: 14px; height: 20px;padding-left: 4px;position: absolute;
+}
+
+.x-map-ajyp-tl-text {
+    width: 100px;
+    left:  14px;
+    top: 0px;
+    padding-left: 8px;
+    position: absolute;
+    overflow:hidden;
+    white-space:nowrap;
+	text-overflow: ellipsis;
+	line-height: 20px;
+	vertical-align:middle;
+}
+
+
+.x-map-btn-over
+{
+    cursor: pointer;
+    color: Red;
+}
+
+
+.x-map-searchmenu-item
+{
+	float: left;
+	overflow:hidden;
+    white-space:nowrap;
+	text-overflow: ellipsis;
+	border:1px solid #fff; 
+}
+
+
+.x-map-searchmenu-item-sel
+{
+	border:1px solid #0000ff; 
+}
+
+.x-map-searchmenu-item-hover
+{
+    cursor: pointer;
+    color: Red;
+}
+
+
+.x-map-searchmenu-top
+{
+	border-bottom:1px solid #ccc;
+}

@@ -1,0 +1,39 @@
+﻿.sp-tree { font-size: 12px; margin: 0; padding: 0; list-style-type: none; }
+.sp-tree li { white-space: nowrap; }
+.sp-tree li ul { list-style-type: none; margin: 0; padding: 0; padding-left: 16px; }
+.sp-tree-node { height: 18px; white-space: nowrap; cursor: pointer; }
+.sp-tree-indent { display: inline-block; width: 16px; height: 18px; vertical-align: middle; }
+.sp-tree-body { padding-left: 16px; }
+.sp-tree-hit { cursor: pointer; }
+.sp-tree-icon { width: 16px; height: 18px; display: inline-block; vertical-align: middle; }
+.sp-tree-expanded { display: inline-block; width: 16px; height: 18px; vertical-align: middle; background: url('/Content/themes/default/images/tree_arrows.gif') no-repeat -18px 0px; }
+.sp-tree-expanded-hover { background: url('/Content/themes/default/images/tree_arrows.gif') no-repeat -50px 0px; }
+.sp-tree-collapsed { display: inline-block; width: 16px; height: 18px; vertical-align: middle; background: url('/Content/themes/default/images/tree_arrows.gif') no-repeat 0px 0px; }
+.sp-tree-collapsed-hover { background: url('/Content/themes/default/images/tree_arrows.gif') no-repeat -32px 0px; }
+.sp-tree-folder { display: inline-block; background: url('/Content/themes/default/images/tree_folder.png') no-repeat; width: 16px; height: 18px; vertical-align: middle; }
+.sp-tree-folder-open { background: url('/Content/themes/default/images/tree_folder_open.png') no-repeat; }
+.sp-tree-file { display: inline-block; background: url('/Content/themes/default/images/tree_file.png') no-repeat; width: 16px; height: 18px; vertical-align: middle; }
+.sp-tree-loading { background: url('/Content/themes/default/images/tree_loading.gif') no-repeat; }
+.sp-tree-title { display: inline-block; text-decoration: none; vertical-align: middle; padding: 1px 2px 1px 2px; white-space: nowrap; }
+
+.sp-tree-node-hover { background: #fafafa; }
+.sp-tree-node-selected { background: #FBEC88; }
+.sp-tree-checkbox { display: inline-block; width: 16px; height: 18px; vertical-align: middle; }
+.sp-tree-checkbox0 { background: url('/Content/themes/default/images/tree_checkbox_0.gif') no-repeat; }
+.sp-tree-checkbox1 { background: url('/Content/themes/default/images/tree_checkbox_1.gif') no-repeat; }
+.sp-tree-checkbox2 { background: url('/Content/themes/default/images/tree_checkbox_2.gif') no-repeat; }
+.sp-tree-node-proxy { font-size: 12px; padding: 1px 2px 1px 18px; background: #fafafa; border: 1px solid #ccc; z-index: 9900000; }
+.sp-tree-dnd-yes { background: url('/Content/themes/default/images/tree_dnd_yes.png') no-repeat 0 center; }
+.sp-tree-dnd-no { background: url('/Content/themes/default/images/tree_dnd_no.png') no-repeat 0 center; }
+.sp-tree-node-top { border-top: 1px dotted red; }
+.sp-tree-node-bottom { border-bottom: 1px dotted red; }
+.sp-tree-node-append .sp-tree-title { border: 1px dotted red; }
+.sp-tree-editor { border: 1px solid #ccc; font-size: 12px; line-height: 16px; width: 80px; position: absolute; top: 0; }
+
+
+.sp-combo-tree { display: inline-block; white-space: nowrap; font-size: 12px; margin: 0; padding: 0; border: 1px solid #A4BED4; background: #fff; }
+.sp-combo-tree-text { font-size: 12px; border: 0px; line-height: 20px; height: 20px; padding: 0px; }
+.sp-combo-tree-arrow { background: #E0ECF9 url('/Content/themes/new/images/combo_arrow.gif') no-repeat 3px 4px; width: 18px; height: 20px; overflow: hidden; display: inline-block; vertical-align: top; cursor: pointer; opacity: 0.6; filter: alpha(opacity=60); }
+.sp-combo-tree-arrow-hover { opacity: 1.0; filter: alpha(opacity=100); }
+.sp-combo-tree-panel { background: #fff; overflow: auto; }
+.sp-combo-tree-value-treesel { color: Gray; }

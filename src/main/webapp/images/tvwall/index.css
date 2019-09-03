@@ -1,0 +1,47 @@
+.x-tvwallmng-wallitem
+{
+	border: 1px #000 solid;
+}
+
+.x-tvwallmng-wallitem-hover
+{
+	border: 1px red solid;
+}
+.x-tvwallmng-wallitem-draghover
+{
+	border: 1px red solid;
+}
+
+.x-tvwallmng-winitem
+{
+	background-color: #808080; border: 1px solid black; cursor: pointer; color: White;
+}
+
+.x-tvwallmng-winitem-noborder
+{
+	border: 0px solid black; 
+}
+.x-tvwallmng-winsplititem
+{
+	background-color: #808080; border: 1px solid black; cursor: pointer; color: White;
+}
+.x-tvwallmng-winsplititem-sel
+{
+	border: 1px solid red; cursor: pointer; color: White;
+}
+
+
+.x-tvwallmng-bigscreen
+{
+	background-color: #ffffff; border: 1px solid black; cursor: pointer; color: White;
+}
+.x-tvwallmng-bigscreen-sel
+{
+	border: 1px solid red; cursor: pointer; color: White;
+}
+
+
+.x-tvwallmng-winsplititem-b11
+{
+	position: absolute;
+}

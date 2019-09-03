@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="62px" viewBox="0 0 36 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="36" height="62" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7">
+            <g id="Rectangle-9">
+                <use fill="#F6F9FB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#C5E0F4" stroke-width="1" x="0.5" y="0.5" width="35" height="61" rx="2"></rect>
+            </g>
+            <path d="M0.9,30.5373134 L35.1,30.5373134 L35.1,60.0746269 C35.1,60.6269116 34.6522847,61.0746269 34.1,61.0746269 L1.9,61.0746269 C1.34771525,61.0746269 0.9,60.6269116 0.9,60.0746269 L0.9,30.5373134 Z" id="Rectangle-12" fill="#E0F2FE"></path>
+        </g>
+    </g>
+</svg>

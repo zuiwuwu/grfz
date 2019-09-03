@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bean头部 -->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:websocket="http://www.springframework.org/schema/websocket"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:util="http://www.springframework.org/schema/util"
+    xmlns:cache="http://www.springframework.org/schema/cache"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:task="http://www.springframework.org/schema/task"  
+    xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/websocket
+        http://www.springframework.org/schema/websocket/spring-websocket.xsd
+        http://www.springframework.org/schema/task
+		http://www.springframework.org/schema/task/spring-task-3.2.xsd">
+	<cache:annotation-driven  cache-manager="cacheManager"/>
+
+	<!-- simple cache manager -->
+	<bean id="cacheManager" class="org.springframework.cache.support.SimpleCacheManager">
+	    <property name="caches">
+	        <set>
+	            <bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean" p:name="default"/>
+	            <bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean" p:name="books"/>
+	        </set>
+	    </property>
+	</bean>
+    <!-- 自动扫描该包，使SpringMVC认为包下用了@controller注解的类是控制器 -->
+    <context:component-scan base-package="sp.szpt.*" />
+    <!-- 自动扫描且只扫描@Controller -->
+   <!-- <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">      
+        <property name="messageConverters">      
+            <list >       
+                <bean class = "org.springframework.http.converter.StringHttpMessageConverter">  
+                	<constructor-arg name="defaultCharset" value="UTF-8"/>                 
+                	<property name = "supportedMediaTypes">                        
+                		<list>                             
+                			<value>text/plain;charset=UTF-8</value>  
+                    		<value>text/html;charset=UTF-8</value>
+                		</list>                   
+                	</property> 
+ 
+                </bean>   
+                <ref bean="mappingJacksonHttpMessageConverter" />   
+            </list>      
+        </property>      
+    </bean>   -->  
+	<!-- 定义跳转的文件的前后缀 ，视图模式配置-->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    	<!-- 这里的配置我的理解是自动给后面action的方法return的字符串加上前缀和后缀，变成一个 可用的url地址 -->
+        <property name="prefix">
+            <value>/jsp/</value>
+        </property>
+        <property name="suffix">
+            <value>.jsp</value>
+        </property>
+    </bean>
+
+    <bean id="mappingJacksonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <property name="objectMapper">  
+            <bean class="com.fasterxml.jackson.databind.ObjectMapper">  
+                <property name="dateFormat">  
+                    <bean class="java.text.SimpleDateFormat">  
+                        <constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm:ss" />  
+                    </bean>  
+                </property>  
+            </bean>  
+        </property>   
+	    <property name="supportedMediaTypes">    
+	       <list>
+               <value>text/html;charset=UTF-8</value>
+           </list>    
+	    </property>  
+	</bean>  
+	
+    <bean id="stringHttpMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter">
+    	<property name="writeAcceptCharset" value="false" />
+	    <constructor-arg name="defaultCharset" value="UTF-8"/>                 
+    	<property name = "supportedMediaTypes">                        
+    		<list>                             
+    			<value>text/plain;charset=UTF-8</value>  
+        		<value>text/html;charset=UTF-8</value>
+    		</list>                   
+    	</property> 
+	</bean>  
+	
+
+    <bean id="bufHttpMessageConverter" class="org.springframework.http.converter.ByteArrayHttpMessageConverter">
+	</bean>  
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">   
+    	<!-- 指定所上传文件的总大小不能超过200KB。注意maxUploadSize属性的限制不是针对单个文件，而是所有文件的容量之和 -->  
+    	<property name="maxUploadSize" value="2000000000"/>  	
+     	<property name="maxInMemorySize" value="40960" />  
+  	</bean> 
+
+
+    <!-- 默认的注解映射的支持 --> 
+
+   	<mvc:annotation-driven>  
+    	<mvc:message-converters>  
+    		<ref bean="bufHttpMessageConverter"/>
+    		<ref bean="stringHttpMessageConverter" />
+    		<ref bean="mappingJacksonHttpMessageConverter" />
+    	</mvc:message-converters> 
+    	<mvc:async-support default-timeout="60000"/>
+	</mvc:annotation-driven>
+	<!-- 对静态资源文件的访问  方案一 （二选一） -->  
+    <mvc:default-servlet-handler/>
+ 
+
+
+</beans>

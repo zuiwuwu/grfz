@@ -1,0 +1,13 @@
+body { font-family: "Microsoft YaHei"; text-align: center; left: 0px; top: 0px; right: 0px; bottom: 0px; margin: 0px; padding-top: 70px; background: url('images/logon_body.png'); }
+.notice { width: 336px; left: 168px; top: 180px; position: absolute; text-align: left; color: #3e77a5; font-weight: normal; }
+.logon_back { width: 1000px; height: 415px; background: url('images/logon_back_small.png') no-repeat; margin-left: auto; margin-right: auto; position: relative; }
+.input { width: 134px; height: 15px; position: absolute; }
+.button { width: 75px; height: 29px; position: absolute; border: 0px; margin: 0px; padding: 0px; }
+#username { left: 765px; top: 200px; }
+#userpwd { left: 765px; top: 230px; }
+#logon { left: 697px; top: 266px; background: url('images/logon_btn_small.png'); }
+#cancel { left: 803px; top: 266px; background: url('images/cancle_btn_small.png'); }
+#logon:hover { background: url('images/logon_btn_on_small.png'); }
+#cancel:hover { background: url('images/cancle_btn_on_small.png'); }
+#userError { left: 781px; top: 200px; }
+#pswError { left: 781px; top: 230px; }

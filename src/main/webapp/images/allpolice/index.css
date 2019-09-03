@@ -1,0 +1,624 @@
+.x-sp-allpolice-home {
+	background-color: #A8B8D9;
+}
+
+.x-sp-allpolice-home-work {
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.x-sp-allpolice-home-top{
+	border-color: white;
+	border-width: 1px;
+	border-bottom-style: solid;
+}
+
+.x-sp-allpolice-home-top1 {
+	background-color: #058BC0;
+	color: white;
+}
+.x-sp-allpolice-home-top2 {
+	background-image: url(./home_top2.png);
+	color: white;
+	font-size: 40px;
+	padding: 50px 40px 50px 260px;
+	font-family: 宋体;
+	font-weight: bold;
+	-webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.x-sp-allpolice-home-top2-left {
+	background-image: url(./home_top2_left.png);
+}
+
+.x-sp-allpolice-home-top2-mid
+{
+    background-image: url(./home_top2_mid.png);
+    color: black;
+    font-size: 48px;
+    padding: 50px 40px 50px 0px;
+    font-family: 隶书;
+    font-weight: bold;
+}
+
+.x-sp-allpolice-home-top2-right {
+	background-image: url(./home_top2_right.png);
+}
+.x-sp-allpolice-home-top3 {
+	color: white;
+	background-color: #133889;
+	font-size: 20px;
+	font-family: 宋体;
+}
+
+.x-sp-allpolice-home-bottom {
+	color: white;
+	background-color: #058BC0;
+}
+
+.x-sp-allpolice-home-btn
+{
+    background-image: url(./home_btn.png);
+     font-size: 16px;
+     padding: 8px 0px 0px 8px;
+     font-weight: bold;
+}
+
+.x-sp-allpolice-home-btn-hover
+{
+    color: red;
+}
+.x-sp-allpolice-home-paneltitle-left {
+	background-image: url(./home_panel_left.png);
+	color: #FFFFFF;
+	font-family: 宋体;
+	font-size: 18px;
+}
+
+.x-sp-allpolice-home-paneltitle-mid {
+	background-image: url(./home_panel_mid.png);
+}
+
+.x-sp-allpolice-home-paneltitle-right {
+	background-image: url(./home_panel_right.png);
+}
+
+.x-sp-allpolice-home-panels {
+	border-color: #6F7889;
+	border-width: 1px;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.x-sp-allpolice-home-panel {
+	border-color: #6F737C;
+	border-width: 1px;
+	border-style: solid;
+	border-style: solid;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.x-sp-allpolice-home-panel-in {
+	border-color: #C2CBCA;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.x-sp-allpolice-home-calendar {
+	background-color: #BABABC;
+}
+
+.x-sp-allpolice-home-calendarbody {
+	background-image: url(./calendar.png);
+}
+
+.x-sp-allpolice-home-calendarbtn {
+	background-image: url(./calendar_date.png);
+}
+
+.x-sp-allpolice-home-btn-home {
+	padding: 4px 30px 4px 0px;
+	text-align: right;
+	cursor: pointer;
+}
+
+.x-sp-allpolice-home-btn-homehover {
+	color: red;
+}
+
+.x-sp-allpolice-home-btn-my {
+	padding: 4px 4px 4px 30px;
+	cursor: pointer;
+		border-color: #000000;
+	border-width: 1px;
+	border-left-style: solid;
+	
+}
+
+.x-sp-allpolice-home-listitem {
+	border-color: #000000 #999999 #CCCCCC #666666;
+	border-width: 1px;
+	border-style: solid;
+	cursor: pointer;
+}
+.x-sp-allpolice-home-listitemvisited {
+	border-color: #000000 #999999 #CCCCCC #666666;
+	border-width: 1px;
+	border-style: solid;
+	cursor: pointer;
+	color: green;
+}
+
+.x-sp-allpolice-home-listitemhover {
+	color: red;
+	cursor: pointer;
+}
+
+.x-sp-allpolice-home-listitemleft {
+	line-height: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.x-sp-allpolice-datepicker {
+	width: 271px;
+}
+
+.x-sp-allpolice-datepicker-header {
+	padding: 8px 8px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	zoom: 1;
+}
+
+.x-sp-allpolice-datepicker-arrow {
+	width:  24px;
+	height: 24px;
+	top: 16px;
+	cursor: pointer;
+	background-color: #6f6f6f;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	opacity: 0.7;
+	position: absolute;
+}
+
+a.x-sp-allpolice-datepicker-arrow:hover {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+
+.x-sp-allpolice-datepicker-next {
+	right: 35px;
+	background-image: url(./calendar_next.png);
+}
+
+.x-sp-allpolice-datepicker-prev {
+	left: 38px;
+	background-image: url(./calendar_prev.png);
+	z-index: 1;
+}
+
+.x-sp-allpolice-datepicker-month{
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+
+.x-sp-allpolice-datepicker-month .x-btn, .x-sp-allpolice-datepicker-month .x-btn .x-btn-tc,
+	.x-sp-allpolice-datepicker-month .x-btn .x-btn-tl,
+	.x-sp-allpolice-datepicker-month .x-btn .x-btn-tr,
+	.x-sp-allpolice-datepicker-month .x-btn .x-btn-mc,
+	.x-sp-allpolice-datepicker-month .x-btn .x-btn-ml,
+	.x-sp-allpolice-datepicker-month .x-btn .x-btn-mr,
+	.x-sp-allpolice-datepicker-month .x-btn .x-btn-bc,
+	.x-sp-allpolice-datepicker-month .x-btn .x-btn-bl,
+	.x-sp-allpolice-datepicker-month .x-btn .x-btn-br {
+	background: transparent;
+	border-width: 0 !important;
+}
+
+.x-sp-allpolice-datepicker-month .x-sp-allpolice-datepicker-monthbtn-inner {
+	color: white;
+	font: normal 18px 宋体, Arial, Helvetica, sans-serif;
+}
+
+.x-sp-allpolice-datepicker-month .x-btn-split-right {
+	background-image: url(../playback/s-arrow-light.gif);
+	padding-right: 12px;
+}
+
+.x-sp-allpolice-datepicker-column-header {
+	width: 42px;
+	color: #3e3e3e;
+	font: normal 10px tahoma, arial, verdana, sans-serif;
+	text-align: center;
+	height: 23px;
+}
+
+.x-sp-allpolice-datepicker-column-header-inner
+{
+    line-height: 19px;
+    color: #595959;
+    font-weight: bold;
+    font-family: 隶书;
+}
+
+.x-sp-allpolice-datepicker-cell {
+	text-align: center;
+	height: 26px;
+}
+
+.x-sp-allpolice-datepicker-date {
+	padding: 0 0px 0 0;
+	font: normal 12px 宋体, Arial, Helvetica, sans-serif;
+	color: #595959;
+	cursor: pointer;
+	line-height: 18px;
+}
+
+a.x-sp-allpolice-datepicker-date:hover {
+	color: #a58585;
+	background-color: transparent;
+}
+
+.x-sp-allpolice-datepicker-today {
+}
+
+.x-sp-allpolice-datepicker-today .x-sp-allpolice-datepicker-date {
+	color: #ffffff;
+}
+
+.x-sp-allpolice-datepicker-selected {
+	
+}
+.x-sp-allpolice-datepicker-selected {
+	
+}
+
+.x-sp-allpolice-datepicker-checkin{
+	background: url(./finished.png) no-repeat 0px 0px;
+}
+
+.x-sp-allpolice-datepicker-notdo {
+	background-color: red;
+}
+
+.x-sp-allpolice-datepicker-notfinished{
+	background-color: #B2B200;
+}
+.x-sp-allpolice-datepicker-finished{
+	background-color: green;
+}
+
+.x-sp-allpolice-datepicker-selected .x-sp-allpolice-datepicker-date {
+	font-weight: 700;
+	color: black;
+}
+
+.x-sp-allpolice-datepicker-prevday .x-sp-allpolice-datepicker-date,
+	.x-sp-allpolice-datepicker-nextday .x-sp-allpolice-datepicker-date {
+	color: #cf680d;
+	font: normal 12px 宋体, Arial, Helvetica, sans-serif;
+}
+
+.x-sp-allpolice-datepicker-disabled a.x-sp-allpolice-datepicker-date {
+	background-color: #eeeeee;
+	cursor: default;
+	color: #bbbbbb;
+}
+
+.x-sp-allpolice-datepicker-disabled a.x-sp-allpolice-datepicker-date:hover {
+	background-color: #eeeeee;
+}
+
+.x-sp-allpolice-datepicker-footer, .x-sp-allpolice-datepicker-monthpicker-buttons {
+	padding: 4px 0;
+	border-width: 1px 0 0;
+	border-style: solid;
+	border-color: #d0d0d0;
+	background-image: none;
+	background-color: #e9e9e9;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfdfdf),
+		color-stop(49%, #d6d6d6), color-stop(51%, #d0d0d0),
+		color-stop(100%, #d2d2d2));
+	background-image: -webkit-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2);
+	background-image: -moz-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2);
+	background-image: -o-linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2);
+	background-image: linear-gradient(top, #dfdfdf, #d6d6d6 49%, #d0d0d0 51%, #d2d2d2);
+	text-align: center;
+}
+
+.x-sp-allpolice-datepicker-footer .x-btn, .x-sp-allpolice-datepicker-monthpicker-buttons .x-btn {
+	margin: 0 2px 0 2px;
+}
+
+.x-sp-allpolice-datepicker-inner
+{
+	margin: 0px 20px 0px 25px;
+}
+
+
+.x-sp-allpolice-workpanel-toolbar {
+	background-color: #1864B1;
+	color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #787878;
+}
+
+.x-sp-allpolice-workpanel-title {
+	padding: 4px;
+	background: url(./workpanel_title.png);
+	color: #ffffff;
+	font: normal 18px 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+.x-sp-allpolice-workpanel-left
+{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #787878;
+}
+
+.x-sp-allpolice-workpanel-toolbaritem
+{
+	padding: 26px 0px 28px 0px;
+	color: #CCCCCC;
+	text-align: center;
+	font: normal 18px 微软雅黑, Arial, Helvetica, sans-serif;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: black;
+}
+
+.x-sp-allpolice-workpanel-toolbaritemhover
+{
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.x-sp-allpolice-workpanel-top
+{
+	background-color: #A8B8D9;
+	color: black;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.x-sp-allpolice-workpanel-top-right
+{
+	background-color: #EDEDED;
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.x-sp-allpolice-workpanel-top-left
+{
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #787878;
+}
+.x-sp-allpolice-workpanel-top-leftitem
+{
+	padding: 13px 0px 0px 0px;
+	text-align: center;
+	font: normal 12px 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+.x-sp-allpolice-workpanel
+{
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.x-sp-allpolice-workpanel-top-leftitemhover
+{
+	color: red;
+	cursor: pointer;
+}
+
+
+.x-sp-allpolice-workpanel-logininfo
+{
+	background-image: url(./logininfo.png);
+}
+
+
+
+.x-sp-allpolice-info-title
+{
+    line-height: 12px;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(212, 245, 255);
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    height: 24px;
+    font-weight: bold;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 90px;
+}
+
+.x-sp-allpolice-info-text
+{
+    line-height: 12px;
+    vertical-align: middle;
+    font-size: 12px;
+    height: 24px;
+    text-align: left;
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.x-sp-allpolice-info-title1
+{
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(212, 245, 255);
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    font-weight: bold;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.x-sp-allpolice-info-text1
+{
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: left;
+    color: #000000;
+    padding: 4px 4px 4px 4px;
+    border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+	white-space:normal; 
+	word-break : break-all; 
+}
+
+
+.x-sp-allpolice-combo-itemgroup
+{
+     background-color: #FAFAFA;
+     border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.x-sp-allpolice-combo-itemgroupitems
+{
+     border-color: #9BBBCA;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.x-sp-allpolice-combo-itemgroup-last
+{
+     background-color: #FAFAFA;
+     border-color: #9BBBCA;
+    border-right-width: 1px;
+    border-right-style: solid;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.x-sp-allpolice-combo-itemgroupitems-last
+{
+     border-color: #9BBBCA;
+}
+
+.x-sp-allpolice-combo-item
+{
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.x-sp-allpolice-combo-itemhaschild
+{
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-image: url(./arrowdown.png);
+}
+
+.x-sp-allpolice-combo-itemhover
+{
+    color: #F77D40;
+	cursor: pointer;
+}
+
+.x-sp-allpolice-combo-itemshowmenu
+{
+	
+}
+
+.x-sp-allpolice-workpanel-lefttoolbar
+{
+	background-color: #A8B8D9;
+}
+
+.x-sp-allpolice-workpanel-lefttoolbaritem
+{
+	background-image: url(./gn_btn.png);
+	padding: 8px 10px 10px 40px;
+	font-size: 14px;
+	font-weight:bold;
+	text-align: left;
+}
+
+.x-sp-allpolice-workpanel-lefttoolbaritemhover
+{
+	color: red;
+	cursor: pointer;
+}
+
+
+.x-sp-allpolice-loginback
+{
+    background-image: url(./login.png);
+}
+
+.x-sp-allpolice-loginback-in
+{
+	background-image: url(./login_main.png);
+}
+
+
+.x-sp-allpolice-gzjl-filesbck
+{
+	background-color: #cccccc;
+}
+
+.x-sp-allpolice-login-back
+{
+	background-color: transparent;
+}
+.x-sp-allpolice-workpanel-home
+{
+	word-break:keep-all;           /* 不换行 */
+white-space:nowrap;          /* 不换行 */
+}
+.x-sp-allpolice-workpanel-home-hover
+{
+	cursor: pointer;
+    color: red;
+}

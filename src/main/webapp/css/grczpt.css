@@ -1,0 +1,90 @@
+.grczpt-main-container{
+	background-color: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    /* background: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.10);
+    border-radius: 4px; */
+}
+
+.grczpt-zhpg-title {
+	font-family: MicrosoftYaHei;
+	font-size: 18px;
+	color: #0D263F;
+	font-weight:bold; 
+	line-height: 30px;
+    padding-left:20px;
+    padding-top:10px;
+    text-align: left;
+    background:url(../images/9.svg);
+    background-repeat:no-repeat; left center;
+/* 	letter-spacing: -0.09px; */
+}
+
+.wsw{font-size: 18px; font-weight: bold; padding-left:10px;text-align: left;line-height:30px; margin:0;background:url(../images/9.svg) no-repeat left center;background-size:5px 30px}£»
+
+.grczpt-home-grid {
+	
+	 background-image: url(../images/grczpt/home/list_bg.png); 
+}
+
+.grfz-main-denglu {
+	 background-image: url(../images/grczpt/login/signin_btn.png) ; 
+}
+
+.grfz-main-zhengshu {
+	 background-image: url(../images/grczpt/login/zhengshu_btn.png) ; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.star-rating {
+        unicode-bidi: bidi-override;
+        color: #ddd;
+        font-size: 0;
+        height: 25px;
+        margin: 0 auto;
+        position: relative;
+        display: table;
+        padding: 0;
+    }
+
+.star-rating span {
+        padding: 1px;
+        font-size: 20px;
+    }
+
+.star-rating-top {
+        color: #FFD700;
+        padding: 0;
+        position: absolute;
+        z-index: 1;
+        display: block;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+.star-rating-bottom {
+        padding: 0;
+        display: block;
+        z-index: 0;
+    }

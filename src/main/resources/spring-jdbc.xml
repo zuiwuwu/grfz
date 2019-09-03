@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd   
+	http://www.springframework.org/schema/aop   
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd  
+	http://www.springframework.org/schema/tx   
+	http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
+
+
+	<!-- <bean id="jdbcdataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+			<property name="driverClassName">
+				<value>${driverClassName}</value>
+			</property>
+			<property name="url">
+				<value>${jdbc_url}</value>
+			</property>
+			<property name="username">
+				<value>${jdbc_username}</value>
+			</property>
+			<property name="password">
+				<value>${jdbc_password}</value>
+			</property>
+		 </bean> -->
+	<!-- 配置dbcp数据源 -->
+	<bean id="jdbcdataSource" destroy-method="close" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="${driverClassName}"/>
+		<property name="url" value="${jdbc_url}"/>
+		<property name="username" value="${jdbc_username}"/>
+		<property name="password" value="${jdbc_password}"/>
+		<!-- 池启动时创建的连接数量 -->
+		<property name="initialSize" value="0"/>
+		<!-- 同一时间可以从池分配的最多连接数量。设置为0时表示无限制。 -->
+		<property name="maxActive" value="20"/>
+		<!-- 池里不会被释放的最多空闲连接数量。设置为0时表示无限制。 -->
+		<property name="maxIdle" value="5"/>
+		<!-- 在不新建连接的条件下，池中保持空闲的最少连接数。 -->
+		<property name="minIdle" value="3"/>
+		<!-- 设置自动回收超时连接 -->  
+		<property name="removeAbandoned" value="true" />
+		<!-- 自动回收超时时间(以秒数为单位) -->  
+		<property name="removeAbandonedTimeout" value="200"/>
+		<!-- 设置在自动回收超时连接的时候打印连接的超时错误  --> 
+		<property name="logAbandoned" value="true"/>
+		<!-- 等待超时以毫秒为单位，在抛出异常之前，池等待连接被回收的最长时间（当没有可用连接时）。设置为-1表示无限等待。  -->  
+		<property name="maxWait" value="-1"/>  
+		
+		
+		
+		<!-- 打开检查,用异步线程evict进行检查 -->
+		<property name="testWhileIdle" value="true"/> 
+		<property name="testOnBorrow" value="false"/> 
+		<property name="testOnReturn" value="false"/> 
+		<!-- 代表检查的sql-->
+		<property name="validationQuery" value="${validationQuery}"/> 
+		<!-- 代表在执行检查时，通过statement设置，statement.setQueryTimeout(validationQueryTimeout)-->
+		<property name="validationQueryTimeout" value="1"/> 
+		<!-- 设置的Evict线程的时间，单位ms，大于0才会开启evict检查线程 -->
+		<property name="timeBetweenEvictionRunsMillis" value="30000"/> 
+		<!-- 代表每次检查链接的数量，建议设置和maxActive一样大，这样每次可以有效检查所有的链接.-->
+		<property name="numTestsPerEvictionRun" value="20"/>
+	</bean>
+
+	<bean id="pagedialect" class="${jdbc_dialect}">
+	</bean>
+	<bean id="dbhelper" class="sp.szpt.common.db.IDbHelper">
+		<property name="dataSource">
+			<ref local="jdbcdataSource" />
+		</property>
+		<property name="pageDialect">
+			<ref local="pagedialect" />
+		</property>
+	</bean>
+	
+		
+	<bean class="sp.szpt.common.db.DbHelperAccess">
+		<property name="dbhelper">
+			<ref local="dbhelper" />
+		</property>
+	</bean>
+	<!-- end jdbc -->
+
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">   
+		<property name="dataSource">   
+			<ref local="jdbcdataSource"/>   
+		</property>   
+	</bean>
+
+</beans>

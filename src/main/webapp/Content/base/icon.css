@@ -1,0 +1,54 @@
+.icon-blank { background: url('icons/blank.gif') no-repeat; }
+.icon-add { background: url('icons/edit_add.png') no-repeat; }
+.icon-edit { background: url('icons/pencil.png') no-repeat; }
+.icon-remove { background: url('icons/edit_remove.png') no-repeat; }
+.icon-save { background: url('icons/filesave.png') no-repeat; }
+.icon-cut { background: url('icons/cut.png') no-repeat; }
+.icon-ok { background: url('icons/ok.png') no-repeat; }
+.icon-no { background: url('icons/no.png') no-repeat; }
+.icon-cancel { background: url('icons/cancel.png') no-repeat; }
+.icon-reload { background: url('icons/reload.png') no-repeat; }
+.icon-search { background: url('icons/search.png') no-repeat; }
+.icon-print { background: url('icons/print.png') no-repeat; }
+.icon-help { background: url('icons/help.png') no-repeat; }
+.icon-undo { background: url('icons/undo.png') no-repeat; }
+.icon-redo { background: url('icons/redo.png') no-repeat; }
+.icon-back { background: url('icons/back.png') no-repeat; }
+.icon-next { background: url('icons/next.png') no-repeat; }
+.icon-sum { background: url('icons/sum.png') no-repeat; }
+.icon-tip { background: url('icons/tip.png') no-repeat; }
+.icon-reload-hover { background: url('icons/reload.png') no-repeat -1px -1px; }
+.icon-reload-down { background: url('icons/reload.png') no-repeat 1px 1px; }
+.icon-chn { background: url('icons/qiu_normal.gif') no-repeat; }
+.icon-kakou { background: url('icons/btn_drag.gif') no-repeat; }
+.icon-gnxx { background: url('tree/gnxx.gif') no-repeat; }
+.icon-ssll { background: url('tree/ssll.gif') no-repeat; }
+.icon-dtyy { background: url('tree/dtyy.gif') no-repeat; }
+.icon-zhcx { background: url('tree/zhcx.gif') no-repeat; }
+.icon-bjgl { background: url('tree/bjgl.gif') no-repeat; }
+.icon-lltj { background: url('tree/lltj.gif') no-repeat; }
+.icon-fxyp { background: url('tree/fxyp.gif') no-repeat; }
+.icon-szgl { background: url('tree/szgl.gif') no-repeat; }
+.icon-xtgl { background: url('tree/xtgl.gif') no-repeat; }
+.icon-jcxx { background: url('tree/jcxx.gif') no-repeat; }
+.icon-xxgl { background: url('tree/xxgl.gif') no-repeat; }
+.icon-yxgl { background: url('tree/yxgl.gif') no-repeat; }
+.icon-rzgl { background: url('tree/rzgl.gif') no-repeat; }
+.icon-clbk { background: url('tree/clbk.gif') no-repeat; }
+.icon-qiang { background: url('tree/qiang.gif') no-repeat; }
+.icon-up { background: url('icons/up.png') no-repeat; }
+.icon-down { background: url('icons/down.png') no-repeat; }
+.icon-up-dis { background: url('icons/up_dis.png') no-repeat; }
+.icon-down-dis { background: url('icons/down_dis.png') no-repeat; }
+.icon-ggmm { background: url('icons/ggmm.gif') no-repeat; }
+.icon-zx { background: url('icons/zx.gif') no-repeat; }
+.icon-loginoff { background: url('icons/loginoff.gif') no-repeat; }
+.icon-gis { background: url('icons/gis.png') no-repeat; }
+.icon-msg { background: url('icons/msg.png') no-repeat; }
+.icon-note { background: url('icons/note.png') no-repeat; }
+
+[disabled='disabled'].icon-up { background: url('icons/up_dis.png') no-repeat; }
+[disabled='disabled'].icon-down { background: url('icons/down_dis.png') no-repeat; }
+.btn { border-bottom: 0px; border-left: 0px; width: 81px; background: url('images/input_button.png') no-repeat center center; height: 24px; color: #000000; font-size: 12px; border-top: 0px; cursor: pointer; border-right: 0px; text-align: center; vertical-align: middle; line-height: 24px; }
+[disabled='disabled'].btn { border-bottom: 0px; border-left: 0px; width: 81px; background: url('images/input_button_hover.png') no-repeat center center; height: 24px; color: #d0d0d0; font-size: 12px; border-top: 0px; cursor: pointer; border-right: 0px; vertical-align: middle; }
+.btn:hover { background: url('images/input_button_hover.png') no-repeat center center; }

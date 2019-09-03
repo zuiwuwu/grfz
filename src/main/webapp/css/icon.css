@@ -1,0 +1,195 @@
+/*html, body { font: normal 12px verdana; margin: 0; padding: 0; border: 0 none; overflow: hidden; height: 100%; }*/
+.x-panel-body p { margin: 5px; }
+.settings { background-image: url(../../shared/icons/fam/folder_wrench.png) !important; }
+.nav { background-image: url(../../shared/icons/fam/folder_go.png) !important; }
+.feed-list { padding: 0 3px 0 3px; }
+.feed-list-item { margin-top: 3px; padding-left: 20px; font-size: 11px; line-height: 20px; cursor: pointer; background: url(../images/icon/rss.gif) no-repeat 0 2px; border: 1px solid #fff; }
+.feed-list .x-item-selected { font-weight: bold; color: #15428B; background-color: #DFE8F6; border: 1px dotted #A3BAE9; }
+.feed-list-item-hover { background-color: #eee; }
+.icon-add { background-image: url(../images/fam/add.png) !important; }
+.icon-details { background-image: url(../images/fam/details.gif) !important; cursor:inherit}
+.icon-del { background-image: url(../images/fam/delete.png) !important; }
+.icon-grid { background-image: url(../images/fam/grid.png) !important; }
+.icon-find { background-image: url(../images/fam/find.png) !important; }
+.icon-replay { background-image: url(../images/fam/Replay.png) !important; }
+.icon-edit { background-image: url(../images/fam/edit.png) !important; }
+.icon-save { background-image: url(../images/fam/saving.gif) !important; }
+.icon-refresh { background-image: url(../images/fam/refresh.gif) !important; }
+.icon-cog_edit { background-image: url(../images/fam/cog_edit.png) !important; }
+.icon-application-go { background-image: url(../images/fam/application_go.png) !important; }
+.icon-user-add { background-image: url(../images/fam/user_add.png) !important; }
+.icon-user { background-image: url(../images/fam/user.png) !important; }
+.icon-image-add { background-image: url(../images/fam/image_add.png) !important; }
+.icon-image-edit { background-image: url(../images/fam/Image_edit.png) !important; }
+.icon-lock { background-image: url(../images/fam/Lock.png) !important; }
+.icon-unlock { background-image: url(../images/fam/Unlock.png) !important; }
+.icon-web { background-image: url(../images/fam/Web.png) !important; }
+.icon-export { background-image: url(../images/fam/export.png) !important; }
+.icon-import { background-image: url(../images/fam/import.png) !important; }
+.icon-qiang-disconnect { background-image: url(../images/fam/qiang_disconnect.png); background-repeat:no-repeat;}
+.icon-qiang-normal { background-image: url(../images/fam/qiang_normal.png); background-repeat:no-repeat; }
+.icon-home { background-image: url(../images/fam/home.png) !important; background-repeat:no-repeat;  }
+.icon-car { background-image: url(../images/fam/car.png) !important; background-repeat:no-repeat; }
+.icon-car-bk { background-image: url(../images/fam/car_bk.png) !important; }
+.icon-cog { background-image: url(../images/fam/cog.png) !important; }
+.icon-cog-edit { background-image: url(../images/fam/cog_edit.png) !important; }
+.icon-comfirmrepair { background-image: url(../images/fam/comfirmrepair.png) !important; }
+.icon-rerepair { background-image: url(../images/fam/rerepair.png) !important; }
+.icon-play { background-image: url(../images/fam/PlayerPlay.png) !important; }
+.icon-stop { background-image: url(../images/fam/PlayerStop.png) !important; }
+.icon-pause { background-image: url(../images/fam/PlayerPause.png) !important; }
+.icon-slow { background-image: url(../images/fam/PlayerFastRev.png) !important; }
+.icon-fast { background-image: url(../images/fam/PlayerFastFwd.png) !important; }
+
+.x-form-clear-trigger { background-image: url(../images/fam/clear-trigger-rtl.gif); }
+.x-form-clear-trigger { background-image: url(../images/fam/clear-trigger-rtl.gif); }
+.x-form-search-trigger { background-image: url(../images/fam/search-trigger-rtl.gif); }
+.x-form-itemselector-top { background-image: url(../images/fam/top2.gif); }
+.x-form-itemselector-up { background-image: url(../images/fam/up2.gif); }
+.x-form-itemselector-add { background-image: url(../images/fam/right2.gif); }
+.x-form-itemselector-remove { background-image: url(../images/fam/left2.gif); }
+.x-form-itemselector-down { background-image: url(../images/fam/down2.gif); }
+.x-form-itemselector-bottom { background-image: url(../images/fam/bottom2.gif); }
+.x-form-itemselector-adds { background-image: url(../images/new/right2.gif); }
+.x-form-itemselector-removes { background-image: url(../images/new/left2.gif); }
+.hot{ width: 65px;height: 7px; margin-left:110px;  margin-bottom: 5px;;color:#59D9FF;}
+.x-form-text-d{color:white;background:#13356c;}
+.sq{height:28px; width:400px;background-image:url(../images/gangwei_bg1.png)}
+
+.x-test-search{
+	background: url(../images/7.svg);
+	border-radius: 4px;
+    line-height: 62px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: MicrosoftYaHei;
+	font-size: 20px;
+	color: #0D263F;
+}
+.imagepreview-thumb{
+	float:left;
+	height: 216px;
+	width: 132px;
+	margin-left: 30px;
+ }
+.imagepreview-thumb-chengjiu{ float: left;   margin: 20px; margin-right: 0; height:194px; width:310px;  padding-right:10px;  padding-bottom:30px; background:url(../images/chengjiu_bg1.png)}
+.imagepreview-thumb img { height: 120px; width: 100px; } 
+.imagepreview-thumb-wraps { float: left;   margin: 25px; margin-right: 0; height:240px; width:200px;  padding-right:10px;  padding-bottom:30px; background:url(../images/grczpt/home/77.png)}
+.imagepreview-thumb-wrapss { float: left;   margin: 20px; margin-right: 0; height:194px; width:160px;  padding-right:10px;  padding-bottom:30px; background:url(../images/biaozhang_bg.png)}
+.imagepreview-thumb-wrap { float: left;   margin: 17px; margin-right: 0; height:264px; width:600px;  padding-right:10px;  padding-bottom:30px; background:url(../images/grczpt/home/list_bg.png) }
+.imagepreview-thumb-wrap span { display: block; overflow: hidden; text-align: left; width: 156px; /* for ie to ensure that the text is centered */ }
+.imagepreview-thumb-wrax { float: left;   margin: 15px; margin-right: 0; height:70px; width:170px;  padding-right:10px;  padding-bottom:10px;}
+.imagepreview-jbxx{
+color: #EAF3FF;
+float: left;
+height: 96px;
+width: 135px;
+text-align: center;
+margin: 112px 0 0 35px;
+}
+
+.imagepreview-jbxxss{
+color: #EAF3FF;
+float: left;
+height: 96px;
+width: 135px;
+margin: 10px 0 0 10px;
+}
+
+.imagepreview-jbxxs{
+color: #EAF3FF;
+float: left;
+height: 216px;
+width: 300px;
+margin: 20px;
+}
+
+.imagepreview-img{
+	height:173px;
+	float: left;
+	width: 240px;
+}
+.hr{
+	width:20px;
+	float: left;	
+}
+
+#dataview-1066{	
+	margin: 10px;
+	
+}
+
+/* tr:nth-child(odd){background-color:#FFE4C4;}
+tr:nth-child(even){background-color:#F0F0F0;} */
+
+.scroll-1 {
+        width:500px;
+        height:200px;
+        overflow:auto;
+    }
+       .scroll-1::-webkit-scrollbar {
+        width:10px;
+        height:10px;
+    }
+    .scroll-1::-webkit-scrollbar-button    {
+        background-color:#0A2C65 ;
+    }
+    .scroll-1::-webkit-scrollbar-track     {
+        background:#0A2C65;
+    }
+
+    .scroll-1::-webkit-scrollbar-thumb{
+        background:#59D9FF;
+        border-radius:4px;
+    }
+    .scroll-1::-webkit-scrollbar-corner {
+        background:#82AFFF;
+    }
+    .scroll-1::-webkit-scrollbar-resizer  {
+        background:#0A2C65 ;
+    }
+
+#jfpm-id{
+	background: url(../images/grczpt/grczpt_bg.png);
+}
+
+#cllsxx{
+	background: url(../images/grczpt/grczpt_bg.png);
+}
+
+#ext-comp-1049-body{
+	background: url(../images/grczpt/grczpt_bg.png);	
+}
+
+/* .x-imagepreview-item-over { border: 1px solid #dddddd; background: #efefef url(over.gif) repeat-x left top; padding: 4px; }
+
+.x-imagepreview-item-selected { background: #eff5fb url(selected.gif) no-repeat right bottom; border: 1px solid #99bbe8; padding: 4px; }
+.x-imagepreview-item-selected .imagepreview-thumb { background: transparent; } */
+
+.x-tree-checkbox-checkedpart { background-position: 0 -39px; }
+
+.x-tvwallmonitor { background-color: black; border: 1px solid black; cursor: pointer; color: White;}
+.x-cursor-dragme { cursor: move; }
+.x-tvwallmonitor-seloverme { border: 1px solid red; }
+.x-tvwallmonitor-selme { background-color: green; }
+
+.x-imagebuttonhover { cursor: pointer; }
+.itemcls{ text-align: center;line-height:40px;}/*overflow:auto;*/
+
+.x-editables{ height: 18px; 
+	color:#CFF4FF;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden; width:70px;}
+    
+.x-editabless{ height: 18px; 
+    white-space: normal;
+    padding-top:20px; 
+    text-overflow: ellipsis;
+    overflow: hidden; width:20px;}
+    
+
+.x-editable{ height: 20px; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; width:140px;}

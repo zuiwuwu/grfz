@@ -1,0 +1,84 @@
+﻿body { font-size: 12px; margin: 0px; padding: 0px; }
+.top-head { width: 100%; height: 95px; background: url('images/back.png'); margin: 0px; padding: 0px; font-weight: bold; }
+.menu-list { width: 650px; height: 29px; margin: 0px; padding: 0px; position: absolute; top: 60px; left: 310px; }
+.menu-btn { width: 81px; height: 29px; background: url('images/btn_list.png') no-repeat; display: block; margin: 0px; float: left; }
+.menu-btn-hover { background-position: 0px -29px; }
+.menu-btn-down { background-position: 0px -58px; }
+.menu-btn-disable { background-position: 0px -87px; }
+#menuList .accordion-body { background-color: #f0f3f5; }
+
+#pageContent { width: 1280px; margin: 0px auto; padding: 0px; }
+.content_div { }
+#top_div { padding: 0px; margin: 0px; }
+#lift_div { float: left; width: 276px; text-align: center; }
+#lift_div #ul_cd { width: 260px; margin: 0px; padding: 0px; }
+.lfcontent_div { height: 102px; vertical-align: bottom; }
+#space_div { background-image: url('images/space.gif'); background-repeat: repeat-y; height: 884px; width: 2px; float: left; }
+
+#ul_buttom li { height: 210px; width: 332px; border-top-width: 2px; border-right-width: 2px; border-top-style: dotted; border-right-style: dotted; border-top-color: #3C91B8; border-right-color: #3C91B8; float: left; margin: 0px; padding: 0px; list-style-type: none; text-align: center; }
+.li_bottom { border-bottom-width: 2px; border-bottom-style: dotted; border-bottom-color: #3C91B8; }
+.rightlitop { height: 43px; background-image: url('images/space01.gif'); background-position: bottom; background-repeat: no-repeat; font-size: 15px; font-weight: bold; color: #3C91B8; display: block; position: relative; padding: 0px; }
+.rightlitop div { height: 43px; line-height: 43px; vertical-align: middle; position: absolute; top: 0px; }
+.rightlitop img { margin: 8px 10px 0px 10px; }
+.li_details { width: 304px; height: 28px; line-height: 28px; text-align: left; margin: 2px 8px 0px 8px; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #3C91B8; cursor: default; }
+#imgPanel { width: 302px; height: 154px; margin: 4px auto; }
+.trafficInfoDate { width: 145px; margin-left: 10px; padding: 0px; display: inline-block; }
+.chnDate { width: 90px; margin-left: 10px; padding: 0px; display: inline-block; }
+.chnAZWZ { width: 125px; margin-left: 10px; padding: 0px; display: inline-block; }
+.hphm { width: 82px; padding: 0px; font-family: Fixedsys; display: inline-block; }
+.li_details a { margin: 0px; padding: 0px; float: left; }
+.li_details div { float: left; }
+
+#menudiv { height: 40px; text-align: left; margin: 0px; vertical-align: middle; padding-bottom: 2px; }
+#menudiv #ul_right { float: right; margin-top: 2px; margin-right: 5px; margin-bottom: 0px; margin-left: 2px; text-align: center; }
+#menudiv #ul_left { float: left; margin-top: 2px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding: 0px; }
+.divBtn { width: 93px; height: 34px; background: url('images/btn_list_new.png') no-repeat; margin: 0px; }
+.homeBtn { background-position: -17px -82px; }
+.homeBtn_hover { background-position: -17px -125px; }
+.homeBtn_down { background-position: -17px -168px; }
+.realTimeBtn { background-position: -115px -82px; }
+.realTimeBtn_hover { background-position: -115px -125px; }
+.realTimeBtn_down { background-position: -115px -168px; }
+.queryBtn { background-position: -213px -82px; }
+.queryBtn_hover { background-position: -213px -125px; }
+.queryBtn_down { background-position: -213px -168px; }
+.detectBtn { background-position: -311px -82px; }
+.detectBtn_hover { background-position: -311px -125px; }
+.detectBtn_down { background-position: -311px -168px; }
+.statisticsBtn { background-position: -409px -82px; }
+.statisticsBtn_hover { background-position: -409px -125px; }
+.statisticsBtn_down { background-position: -409px -168px; }
+.analysisBtn { background-position: -507px -82px; }
+.analysisBtn_hover { background-position: -507px -125px; }
+.analysisBtn_down { background-position: -507px -168px; }
+.systemBtn { background-position: -605px -82px; }
+.systemBtn_hover { background-position: -605px -125px; }
+.systemBtn_down { background-position: -605px -168px; }
+.omBtn { background-position: -703px -82px; }
+.omBtn_hover { background-position: -703px -125px; }
+.omBtn_down { background-position: -703px -168px; }
+.resourceBtn { background-position: -801px -82px; }
+.resourceBtn_hover { background-position: -801px -125px; }
+.resourceBtn_down { background-position: -801px -168px; }
+.doubtfulBtn { background-position: -900px -82px; }
+.doubtfulBtn_hover { background-position: -900px -125px; }
+.doubtfulBtn_down { background-position: -900px -168px; }
+.dangerBtn { background-position: -1000px -82px; }
+.dangerBtn_hover { background-position: -1000px -125px; }
+.dangerBtn_down { background-position: -1000px -168px; }
+
+.moreBtn { color: Black; font-size: 10px; font-weight: normal; cursor: pointer; }
+
+.ul_cdli { height: 140px; list-style-type: none; display: block; margin-top: 7px; background-image: url('images/lfbg.gif'); text-align: left; }
+.ul_cdcontent { display: block; font-size: 12px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 20px; margin: 10px; }
+#ul_left li { float: left; height: 35px; width: 95px; list-style-type: none; display: block; }
+#ul_right li { list-style-type: none; float: right; display: block; }
+.ul_cdcontent li { list-style-image: url('images/LeftItem.gif'); float: left; width: 100px; margin-top: 5px; cursor: pointer; }
+
+
+#main_lift_div { font-size: 15px; float: left; width: 185px; height: 665px; text-align: left; background-color: White; border: 1px solid #1C638F; border-top: 0px; }
+#main_space_div { width: 2px; height: 670px; float: left; }
+#main_right_div { width: 1080px; height: 670px; float: left; text-align: right; margin-left: 5px; }
+.function-title { width: 187px; height: 31px; background: url('images/function_title.gif') no-repeat; margin: -2px 0px 5px -1px; padding: 0px; }
+#tt { width: 1077px; height: 670px; padding: 0px; margin: 0px; background-color: #F3FAFF; }
+iframe { border: 1px solid #1C638F; border-top: 0px; padding: 0px; margin: 0px; }

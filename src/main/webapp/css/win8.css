@@ -1,0 +1,263 @@
+
+
+.x-sp-metro-item
+{
+   -webkit-box-shadow:2px 2px 2px rgba(0, 0, 0, .3);  
+  -moz-box-shadow:2px 2px 2px rgba(0, 0, 0, .3);  
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.x-sp-metro-appitem
+{
+}
+.x-sp-metro-appitem-hover
+{
+    background-color: #425EB6;
+}
+
+
+.x-sp-metro-large-close
+{
+    background-image:url(../images/win8/downlarge.png);
+    width: 38px;
+    height: 38px;
+}
+
+
+.x-sp-metro-search
+{
+    background-image:url(../images/win8/1.png);
+    width: 24px;
+    height: 24px;
+    background-position: -7px -8px;
+    margin: 13px 13px 13px 13px; 
+}
+
+.x-sp-metro-apps
+{
+    background-image:url(../images/win8/1.png);
+    width: 24px;
+    height: 24px;
+    background-position: -56px -8px;
+    margin: 13px 13px 13px 13px;
+}
+
+.x-sp-metro-msg
+{
+    background-image:url(../images/win8/1.png);
+    width: 24px;
+    height: 24px;
+    background-position: -107px -8px;
+    margin: 13px 13px 13px 13px;
+}
+
+
+.x-sp-metro-my
+{
+    background-image:url(../images/win8/1.png);
+    width: 24px;
+    height: 24px;
+    background-position: -157px -8px;
+    margin: 13px 13px 13px 13px;
+}
+
+.x-sp-metro-lefthide
+{
+    background-image:url(../images/win8/2.png);
+    width: 25px;
+    height: 25px;
+    margin: 18px 23px 18px 23px;
+}
+
+.x-sp-metro-leftshow
+{
+    background-image:url(../images/win8/4.png);
+    width: 36px;
+    height: 90px;
+    top: 42%;
+}
+
+
+.x-sp-metro-dlg-min
+{
+    background-image:url(../images/win8/dlgtitle.png);
+    width: 24px;
+    height: 24px;
+    margin: 0px 2px 0px 2px;
+    background-position: -2px 0px;
+}
+.x-sp-metro-dlg-max
+{
+    background-image:url(../images/win8/dlgtitle.png);
+    width: 24px;
+    height: 24px;
+    margin: 0px 2px 0px 2px;
+    background-position: -27px 0px;
+}
+
+.x-sp-metro-dlg-close
+{
+    background-image:url(../images/win8/dlgtitle.png);
+    background-position: -53px 0px;
+    margin: 0px 8px 0px 2px;
+    width: 48px;
+    height: 24px;
+}
+.x-sp-metro-dlg-restore
+{
+    background-image:url(../images/win8/dlgtitle.png);
+    background-position: -101px 0px;
+    margin: 0px 8px 0px 2px;
+    width: 24px;
+    height: 24px;
+}
+
+
+.x-sp-metro-large-close-hover,
+.x-sp-metro-apps-hover,
+.x-sp-metro-msg-hover,
+.x-sp-metro-my-hover,
+.x-sp-metro-search-hover,
+.x-sp-metro-lefthide-hover,
+.x-sp-metro-leftshow-hover,
+.x-sp-metro-righthide-hover,
+.x-sp-metro-dlg-min-hover,
+.x-sp-metro-dlg-max-hover,
+.x-sp-metro-dlg-close-hover,
+.x-sp-metro-dlg-restore-hover
+{
+    opacity: 0.5;
+}
+
+
+.x-sp-metro-item
+{
+    z-index: 1;
+}
+.x-sp-metro-righttitle
+{
+    color: White;
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    font-weight:bold;
+}
+
+
+.x-sp-metro-righthide
+{
+    background-image:url(../images/5.png);
+    width: 35px;
+    height: 35px;
+    margin: 2px 0px 0px 0px;
+}
+
+.x-sp-metro-leftpanel
+{
+  -webkit-box-shadow:2px 2px 12px rgba(0, 0, 0, .5);  
+  -moz-box-shadow:2px 2px 12px rgba(0, 0, 0, .5);  
+  box-shadow: 2px 2px 12px rgba(0,0,0,.5);
+}
+.x-sp-metro-rightpanel
+{
+  -webkit-box-shadow:2px 2px 12px rgba(0, 0, 0, .5);  
+  -moz-box-shadow:2px 2px 12px rgba(0, 0, 0, .5);  
+  box-shadow: 2px 2px 12px rgba(0,0,0,.5);
+  padding: 18px 18px 18px 18px;
+}
+
+
+.x-sp-metro-setbackgroundtitle
+{
+    color: White;
+    font-size: 16px;
+}
+
+
+.x-sp-metro-nologon
+{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.x-sp-metro-alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.x-sp-metro-logininput {
+    padding: 6px 6px 6px 6px;
+    background-color: white;
+    margin: 12px 6px 0px 6px;
+    border-radius: 2px;
+}
+.x-sp-metro-item-zoom {
+    -webkit-transform: scale(0.93);
+}
+
+.x-sp-metro-item-draghover
+{
+  -webkit-box-shadow:0px 0px 12px rgba(11, 88, 139, .9);  
+  -moz-box-shadow:0px 0px 12px rgba(11, 88, 139, .9);  
+  box-shadow: 0px 0px 12px rgba(11, 88, 139, .9);
+  opacity: 0.6;
+}
+.x-sp-metro-task-item
+{
+    border: 1px solid white;
+    background-color: rgb(107,173,246);
+    margin-right: 2px;
+    margin-left: 2px;
+    position: absolute;
+    color: White;
+    cursor: pointer;
+    
+}
+.x-sp-metro-task-item-text
+{
+    line-height: 24px;
+    vertical-align:middle;
+    left:40px;
+    top:3px;
+    position: absolute;
+    width:120px;
+    height:24px;
+}
+
+
+.x-sp-metro-taskar
+{
+    padding: 0px 100px 0px 100px;
+}
+
+.x-sp-metro-taskar-max
+{
+    background-color: rgb(107,173,246);
+    padding: 0px 0px 0px 0px;
+}
+
+
+.x-sp-metro-dlg-body
+{
+    padding: 8px 8px 8px 8px;
+}
+
+.x-sp-metro-dlg-body-max
+{
+    padding: 8px 0px 0px 0px;
+}
+
+.x-sp-metro-dlg
+{
+    background-color: gray;
+    color: white;
+    position: absolute;
+    -webkit-box-shadow:2px 2px 12px rgba(0, 0, 0, .5);  
+  -moz-box-shadow:2px 2px 12px rgba(0, 0, 0, .5);  
+  box-shadow: 2px 2px 12px rgba(0,0,0,.5);
+}
+.x-sp-metro-dlg-focus
+{
+    background-color: #6badf6;
+}

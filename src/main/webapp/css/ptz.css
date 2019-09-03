@@ -1,0 +1,282 @@
+/* 左上 */
+.x-ptz-leftup { left: 9px; top: 18px; width: 50px; height: 35px; }
+.x-ptz-leftup-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -9px -18px; }
+
+/* 左*/
+.x-ptz-left { left: 9px; top: 58px; width: 50px; height: 35px; }
+.x-ptz-left-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -9px -58px; }
+
+/* 左下*/
+.x-ptz-leftdown { left: 9px; top: 98px;  width: 50px; height: 35px;}
+.x-ptz-leftdown-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -9px -98px; }
+
+/* 上*/
+.x-ptz-centerup { left: 64px; top: 18px;  width: 50px; height: 35px;}
+.x-ptz-centerup-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -64px -18px; }
+
+/* 中间按钮*/
+.x-ptz-center { left: 64px; top: 58px;  width: 50px; height: 35px; }
+.x-ptz-center-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position:-64px -58px; }
+
+/* 下*/
+.x-ptz-centerdown { left: 64px; top: 98px;  width: 50px; height: 35px;}
+.x-ptz-centerdown-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -64px -98px; }
+
+/* 右上*/
+.x-ptz-rightup { left: 119px; top: 18px;  width: 50px; height: 35px; }
+.x-ptz-rightup-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -119px -18px; }
+
+/* 右 */
+.x-ptz-right { left: 119px; top: 58px;  width: 50px; height: 35px;}
+.x-ptz-right-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -119px -58px; }
+
+/* 右下 */
+.x-ptz-rightdown { left: 119px; top: 98px;  width: 50px; height: 35px;}
+.x-ptz-rightdown-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -119px -98px; }
+
+/* 变倍 */
+.x-ptz-reducetimes { left: 245px; top: 53px;  width: 38px; height: 18px; }
+.x-ptz-reducetimes-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -244px -53px; }
+
+.x-ptz-addtimes { left: 305px; top: 53px;  width: 38px; height: 18px; background-image: url(../images/cloud/add.png);}
+.x-ptz-addtimes-hover {background-image: url(../images/cloud/add_hover.png); background-position: 0px 0px; }
+
+/* 焦距  */
+.x-ptz-reducefocus { left: 245px; top: 84px;  width: 38px; height: 18px; }
+.x-ptz-reducefocus-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -245px -83px; }
+
+.x-ptz-addfocus { left: 305px; top: 84px;  width: 38px; height: 18px; background-image: url(../images/cloud/add.png);}
+.x-ptz-addfocus-hover { background-image: url(../images/cloud/add_hover.png); background-position: 0px 0px; }
+
+/* 光圈 */
+.x-ptz-reduceaperture { left: 245px; top: 114px;  width: 36px; height: 18px; }
+.x-ptz-reduceaperture-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -245px -114px; }
+
+.x-ptz-addaperture { left: 305px; top: 114px;  width: 38px; height: 18px;  background-image: url(../images/cloud/add.png);}
+.x-ptz-addaperture-hover { background-image: url(../images/cloud/add_hover.png); background-position: 0px 0px; }
+
+/* 云台菜单*/
+.x-choose-cloud { left: 0px; top: 0px;  width: 92px; height: 30px; }
+.x-choose-cloud-hover { background-image: url(); background-position: 0px 0px; }
+.x-choose-cloud-checked { background-image: url(../images/cloud/cloud_hover.png); background-position: 0px 0px; }
+
+.x-choose-onandoff { left: 91px; top: 0px;  width: 89px; height: 30px; }
+.x-choose-onandoff-hover { background-image: url(); background-position: 0px 0px; }
+.x-choose-onandoff-checked { background-image: url(../images/cloud/assistant_hover.png); background-position: -88px 0px; }
+
+.x-choose-yuzhi { left: 178px; top: 0px;  width: 82px; height: 30px; }
+.x-choose-yuzhi-hover { background-image: url(); background-position: 0px 0px; }
+.x-choose-yuzhi-checked { background-image: url(../images/cloud/preset_hover.png); background-position: -176px 0px; }
+
+.x-choose-xunhang { left: 258px; top: 0px;  width: 91px; height: 30px; }
+.x-choose-xunhang-hover { background-image: url(); background-position: 0px 0px; }
+.x-choose-xunhang-checked { background-image: url(../images/cloud/xunhang_hover.png); background-position: -260px 0px; }
+
+/* 分屏*/
+/*一分屏 */
+.x-ptz-split1 { left: 53px; top: 9px;  width: 32px; height: 32px; }
+.x-ptz-split1-hover { background-image: url(../images/cloud/top_hover.png); background-position: -53px -9px; }
+
+/* 四分屏*/
+.x-ptz-split4 { left: 98px; top: 9px;  width: 32px; height: 32px; }
+.x-ptz-split4-hover { background-image: url(../images/cloud/top_hover.png); background-position: -98px -9px; }
+
+/* 六分屏 */
+.x-ptz-split6 { left: 143px; top: 9px;  width: 32px; height: 32px; }
+.x-ptz-split6-hover { background-image: url(../images/cloud/top_hover.png); background-position:-143px -9px; }
+
+/* 九分屏 */
+.x-ptz-split9 { left: 189px; top: 9px;  width: 32px; height: 32px; }
+.x-ptz-split9-hover { background-image: url(../images/cloud/top_hover.png); background-position: -189px -9px; }
+
+/* 十三 */
+.x-ptz-split13 { left: 235px; top: 9px;  width: 32px; height: 32px; }
+.x-ptz-split13-hover { background-image: url(../images/cloud/top_hover.png); background-position: -235px -9px; }
+
+/* 16 */
+.x-ptz-split16 { left: 281px; top: 9px;  width: 32px; height: 32px; }
+.x-ptz-split16-hover { background-image: url(../images/cloud/top_hover.png); background-position: -281px -9px; }
+
+/* 全屏*/
+.x-ptz-full { left: 328px; top: 9px;  width: 32px; height: 32px; }
+.x-ptz-full-hover { background-image: url(../images/cloud/top_hover.png); background-position: -328px -9px; }
+
+/* 保存视频 */
+.x-save-video { left: 449px; top: 4px;  width: 40px; height: 40px; }
+.x-save-video-hover { background-image: url(../images/cloud/top_hover.png); background-position: -449px -4px; }
+
+/* 3d云台 */
+.x-3D-cloud { left: 528px; top: 4px;  width: 40px; height: 40px; }
+.x-3D-cloud-hover { background-image: url(../images/cloud/top_hover.png); background-position: -528px -4px; }
+
+/* 手动报警 */
+.x-manual-alarm { left: 608px; top: 4px;  width: 40px; height: 40px; }
+.x-manual-alarm-hover { background-image: url(../images/cloud/top_hover.png); background-position: -608px -4px; }
+
+/* 电视墙 */
+.x-ptz-videowall { left: 681px; top: 4px;  width: 40px; height: 40px; }
+.x-ptz-videowall-hover { background-image: url(../images/cloud/top_hover.png); background-position: -681px -4px; }
+
+/* 锁定 */
+.x-ptz-clock { left: 759px; top: 4px;  width: 40px; height: 40px; }
+.x-ptz-clock-hover { background-image: url(../images/cloud/top_hover.png); background-position: -759px -4px; }
+
+/* 显示时间 */
+.x-show-time { left: 841px; top: 4px;  width: 40px; height: 40px; }
+.x-show-time-hover { background-image: url(../images/cloud/top_hover.png); background-position: -841px -4px; }
+
+/* 收藏 */
+.x-ptz-collection { left: 920px; top: 4px;  width: 40px; height: 40px; }
+.x-ptz-collection-hover { background-image: url(../images/cloud/top_hover.png); background-position: -920px -4px; }
+
+/* 关闭当前通道 */
+.x-close-current { left: 1004px; top: 4px;  width: 40px; height: 40px; }
+.x-close-current-hover { background-image: url(../images/cloud/top_hover.png); background-position: -1004px -4px; }
+
+/* 关闭所有通道 */
+.x-close-all{ left: 1083px; top: 4px;  width: 40px; height: 40px; }
+.x-close-all-hover { background-image: url(../images/cloud/top_hover.png); background-position: -1083px -4px; }
+
+
+/* 速度滑动条 */
+.x-ptz-speed-slider { position: absolute; left: 265px; top: 27px; width: 55px; height: 6px; background-image: url(../images/cloud/slider.png); background-position: 0px 0px; }
+.x-ptz-speed-slider-end { padding-right: 6px; }
+.x-ptz-speed-slider-inner { position: relative; height: 6px; }
+.x-ptz-speed-thumb { position: absolute; background: url(../images/cloud/speedbutton.png) no-repeat 0px 0px; width: 12px; height: 12px; margin-left: -6px; cursor: pointer; }
+.x-ptz-speed-thumb-over { background: url(../images/cloud/speedbutton.png) no-repeat 0px 0px; }
+.x-ptz-speed-sub { left: 245px; top: 21px; width: 20px; height: 20px;background-image: url(); }
+.x-ptz-speed-sub-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -245px -21px; }
+.x-ptz-speed-add { left: 322px; top: 21px; width: 18px; height: 20px;background-image: url(); }
+.x-ptz-speed-add-hover { background-image: url(../images/cloud/cloud_all_hover.png); background-position: -322px -21px; }
+
+/*辅助开关 */
+/* 灯光 */
+.x-ligth-set { left: 30px; top: 35px;  width: 90px; height: 35px; }
+.x-ligth-set-hover { background-image: url(../images/cloud/support_hover.png); background-position: -30px -35px; }
+
+/*雨刷 */
+.x-rain-brush { left: 130px; top: 35px;  width: 90px; height: 35px; }
+.x-rain-brush-hover { background-image: url(../images/cloud/support_hover.png); background-position: -130px -35px; }
+
+/* 自动对焦*/
+.x-auto-focus { left: 230px; top: 35px;  width: 90px; height: 35px; }
+.x-auto-focus-hover { background-image: url(../images/cloud/support_hover.png); background-position: -230px -35px; }
+
+/* 拉倒最远 */
+.x-change-faraway { left: 130px; top: 90px;  width: 90px; height: 35px;  }
+.x-change-faraway-hover { background-image: url(../images/cloud/support_hover.png); background-position: -130px -90px; }
+
+/* 拉倒最近 */
+.x-change-nearst { left: 30px; top: 90px;  width: 90px; height: 35px;  }
+.x-change-nearst-hover { background-image: url(../images/cloud/support_hover.png); background-position: -30px -90px; }
+
+/* 高级设置 */
+.x-high-setting { left: 230px; top: 90px; width: 90px; height: 35px;  }
+.x-high-setting-hover { background-image: url(../images/cloud/support_hover.png); background-position: -230px -90px; }
+
+/* 预置位 */
+
+/* 调用*/
+.x-point-call { left: 55px; top: 60px; width: 60px; height: 30px;  }
+.x-point-call-hover { background-image: url(../images/cloud/preset_all_hover.png); background-position: -55px -59px; }
+
+/* 添加预置点 */
+.x-point-add { left: 195px; top: 60px; width: 100px; height: 30px;  }
+.x-point-add-hover { background-image: url(../images/cloud/preset_all_hover.png); background-position: -195px -59px; }
+
+/*回到预置点 */
+.x-point-callback { left: 55px; top: 110px; width: 110px; height: 30px;  }
+.x-point-callback-hover { background-image: url(../images/cloud/preset_all_hover.png); background-position: -55px -109px; }
+
+/*清除预置点*/
+.x-point-clear { left: 195px; top: 110px; width: 100px; height: 30px;  }
+.x-point-clear-hover { background-image: url(../images/cloud/preset_all_hover.png); background-position: -195px -109px; }
+
+
+/* 视频浏览底部按钮 */
+/*监听  */
+.x-listen-in { left: 414px; top: 4px; width: 41px; height: 41px;  }
+.x-listen-in-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -415px -6px; }
+
+/*对讲 */
+.x-talk-back { left: 489px; top: 4px; width: 41px; height: 41px;  }
+.x-talk-back-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -490px -6px; }
+
+/*抓拍 */
+.x-ptz-shooting { left: 566px; top: 4px; width: 40px; height: 40px;  }
+.x-ptz-shooting-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -567px -6px; }
+
+/*连拍 */
+.x-continuous-shooting { left: 642px; top: 4px; width: 40px; height: 40px;  }
+.x-continuous-shooting-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -643px -6px; }
+
+/*录像 */
+.x-record-video { left: 720px; top: 4px; width: 40px; height: 40px;  }
+.x-record-video-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -721px -6px; }
+
+/*全部录像 */
+.x-record-all { left: 798px; top: 4px; width: 40px; height: 40px;  }
+.x-record-all-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -799px -6px; }
+
+/*标签 */
+.x-ptz-lable { left: 870px; top: 4px; width: 40px; height: 40px;  }
+.x-ptz-lable-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -871px -6px; }
+
+/*回放 */
+.x-play-back { left: 946px; top: 4px; width: 40px; height: 40px;  }
+.x-play-back-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -947px -6px; }
+
+/*局部缩小*/
+.x-local-litter { left: 1022px; top: 4px; width: 40px; height: 40px;  }
+.x-local-litter-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -1022px -6px; }
+
+/*局部放大*/
+.x-local-bigger { left: 1096px; top: 4px; width: 40px; height: 40px;  }
+.x-local-bigger-hover { background-image: url(../images/cloud/buttom_hover.png); background-position: -1097px -6px; }
+    
+/*设置*/
+.x-foot-setting { left: 1510px; top: 4px; width: 40px; height: 40px;  }
+.x-foot-setting-hover { background-image: url(); background-position: 0px 0px; } 
+
+.x-silent { left: 1355px; top: 12px; width: 27px; height: 27px;  }
+.x-silent-checked { background-image: url(../images/cloud/silent.png); background-position: 0px 0px; }
+
+/* 字体设置 */
+.default-text { color : #FFFFFF  }   
+.lable-style { color : #FFFFFF  }  
+    
+/* 音量滑动条 */
+.x-ptz-sound-slider { position: absolute; left: 1387px; top: 20px; width: 100px; height: 6px; background-image: url(../images/cloud/buttom.png); background-position: -1387px -25px; }
+.x-ptz-sound-slider-end { padding-right: 6px; }
+.x-ptz-sound-slider-inner { position: relative; height: 6px; }
+.x-ptz-sound-thumb { position: absolute; background: url(../images/cloud/soundbutton.png) no-repeat 0px 0px; width: 12px; height: 12px; margin-left: -6px; cursor: pointer; }
+.x-ptz-sound-thumb-over { background: url(../images/cloud/soundbutton.png) no-repeat 0px 0px; }
+
+/* 亮度滑动条 */
+.x-ptz-light-slider { width: 155px; height: 10px;   background-image: url(../images/cloud/lightslider.png); background-position: 2px 2px; }
+.x-ptz-light-slider-end { padding-right: 6px; }
+.x-ptz-light-slider-inner { position: relative; height: 6px; }
+.x-ptz-light-thumb { position: absolute; background: url(../images/cloud/lightbutton.png) no-repeat 0px 0px; width: 20px; height: 10px; margin-left: -6px; cursor: pointer; }
+.x-ptz-light-thumb-over { background: url(../images/cloud/lightbutton.png) no-repeat 0px 0px; }
+
+/* 对比度滑动条 */
+.x-ptz-contrast-slider {left: 90px; top: 90px; width: 150px; height: 20px;   background-image: url(../images/cloud/lightslider.png); background-position: 2px 2px; }
+.x-ptz-contrast-slider-end { padding-right: 6px; }
+.x-ptz-contrast-slider-inner { position: relative; height: 6px; }
+.x-ptz-contrast-thumb { position: absolute; background: url(../images/cloud/lightbutton.png) no-repeat 0px 0px; width: 20px; height: 10px; margin-left: -6px; cursor: pointer; }
+.x-ptz-contrast-thumb-over { background: url(../images/cloud/lightbutton.png) no-repeat 0px 0px; }
+
+/* 播放设置关闭按钮 */
+.x-close-button{ width: 18px; height: 18px; background-image: url(../images/cloud/close_button.png); }
+/* 恢复默认设置 */
+.x-recovery-button{ width: 95px; height: 32px; background-image: url(../images/cloud/recovery.png); }
+/* 饱和度滑动条 */
+.x-ptz-saturated-slider {left: 90px; top: 90px; width: 150px; height: 20px; background-image: url(../images/cloud/lightslider.png); background-position: 2px 2px; }
+.x-ptz-saturated-slider-end { padding-right: 6px; }
+.x-ptz-saturated-slider-inner { position: relative; height: 6px; }
+.x-ptz-saturated-thumb { position: absolute; background: url(../images/cloud/lightbutton.png) no-repeat 0px 0px; width: 20px; height: 10px; margin-left: -6px; cursor: pointer; }
+.x-ptz-saturated-thumb-over { background: url(../images/cloud/lightbutton.png) no-repeat 0px 0px; }
+  
+/* 搜索按钮 */
+.x-search-button{left: 254px; top: 10px; width: 82px; height: 40px; background-image: url(../images/cloud/search.png); background-position: -257px -8px;}
+.x-search-button-hover { background-image: url(../images/cloud/search_hover.png); background-position: -257px -8px; } 

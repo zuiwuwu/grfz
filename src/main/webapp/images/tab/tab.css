@@ -1,0 +1,103 @@
+.sptab-tab-bar-default-top {
+  padding: 8px 0 9px 4px;
+  border-width: 0px 0px 0;
+}
+
+.sptab-tab-bar-default-top {
+  background-image: url(./back.png);
+}
+
+.sptab-tab-default-top 
+{
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 5px 25px 3px 30px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  background-image: url(./btn1.png);
+  height: 27px;
+  color: White;
+  margin: 0 4px 0 0;
+  filter: Dropshadow(offx=1,offy=1,color=#1f1f1f);
+  text-shadow: 0 1px 0 #1f1f1f;
+  border-color: #2a5794;
+  cursor:pointer;
+}
+
+.sptab-tab-default-top-over,
+.sptab-tab-default-left-over,
+.sptab-tab-default-right-over {
+  background-image: url(./btn2.png);
+}
+
+
+/* line 581, ../../../../../../packages/ext-theme-neutral/sass/src/tab/Tab.scss */
+.sptab-tab-default-top-active,
+.sptab-tab-default-left-active,
+.sptab-tab-default-right-active {
+  background-image: url(./btn.png);
+}
+
+.sptab-tab-wrap {
+  display: block;
+  position: relative;
+}
+
+/* line 118, ../../../../../../packages/ext-theme-base/sass/src/tab/Panel.scss */
+.sptab-tab-close-btn {
+  display: block;
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+  background: no-repeat;
+  right: 6px;
+  top: 8px;
+}
+
+/* line 861, ../../../../../../packages/ext-theme-neutral/sass/src/tab/Tab.scss */
+.sptab-tab-default .sptab-tab-close-btn {
+  width: 11px;
+  height: 11px;
+  background-image: url(./close1.png);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+.sptab-tab-default .sptab-tab-close-btn-over {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.sptab-tab-active .sptab-tab-close-btn {
+  width: 11px;
+  height: 11px;
+  background-image: url(./close.png);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+.sptab-tab-active .sptab-tab-close-btn-over {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.sptab-tab-btn-icon 
+{
+  width: 16px;
+  height: 16px;
+  background-image: url(./icon.png);
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -22px;
+}
