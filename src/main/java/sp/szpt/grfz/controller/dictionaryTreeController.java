@@ -1,4 +1,4 @@
-package sp.szpt.grfz.controller;
+/*package sp.szpt.grfz.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -94,9 +94,9 @@ public class dictionaryTreeController {
 				els.setUrl("http://192.168.1.200:8080/grfz/grfz/xinxi?JH="+els.getJh());
 				list.add(els);				
 			}
-			/*ModelAndView modelAndView = new ModelAndView();
+			ModelAndView modelAndView = new ModelAndView();
 	        modelAndView.setViewName("search");
-	        modelAndView.addObject("articles", list);*/
+	        modelAndView.addObject("articles", list);
 			String classnameString = request.getParameter("class");
 			if(StringUtils.isEmpty(classnameString))
 				classnameString = "App.grczpt.Home.elsearch";
@@ -110,14 +110,14 @@ public class dictionaryTreeController {
 	        mv1.addObject("count",searchHits.getTotalHits());
 	        mv1.addObject("queryString",serachtext);
 			return  mv1;
-/*			for(SearchHit hit:searchHits){
+			for(SearchHit hit:searchHits){
                 System.out.println("String方式打印文档搜索内容:");
 //                System.out.println(hit.getSourceAsString()+hit.getId());
                 ss+=hit.getSourceAsString()+"~";
                 dd+=hit.getId()+",";
             }
 			System.out.println(ss);
-			return ss+"$"+dd;*/
+			return ss+"$"+dd;
 
 		}else{
 			System.out.println("没有值");
@@ -326,7 +326,7 @@ public class dictionaryTreeController {
 	@RequestMapping(value = "getListsS")
 	public Object getLists(JFInfo searchInfo , String grade,String deptname) {
 		//百分比取值
-		/*if (grade.equals("1")) {
+		if (grade.equals("1")) {
 			return dbHelper.QuerySPList("select * from (select id,name,score,rownum rn from ERJIKAOHE where grade != '无等级')  where rownum <= (select max(rownum)*0.2 from ERJIKAOHE)",searchInfo);
 		}else if(grade.equals("2")){
 			return dbHelper.QuerySPList("select * from (select id,name,score,rownum rn from ERJIKAOHE where grade != '无等级' ) where rn >= (select max(rownum)*0.2 from ERJIKAOHE) and rn <= (select max(rownum)*0.6 from ERJIKAOHE)",searchInfo);
@@ -336,7 +336,7 @@ public class dictionaryTreeController {
 			return dbHelper.QuerySPList("select * from (select id,name,score,rownum rn from ERJIKAOHE where grade != '无等级') where rn >= (select max(rownum)*0.9 from ERJIKAOHE)",searchInfo);
 		}else if(grade.equals("5")){
 			return dbHelper.QuerySPList("select * from ERJIKAOHE where grade = '无等级' order by score desc",searchInfo);
-		}*/
+		}
 		
 		//直接按照等级取值
 		System.out.println(grade+deptname);
@@ -354,4 +354,4 @@ public class dictionaryTreeController {
 		return null;
 				
 	}
-}
+}*/

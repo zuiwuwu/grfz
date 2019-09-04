@@ -401,11 +401,11 @@
 			<artifactId>sp-commonlib</artifactId>
 			<version>1.0.1-RELEASE</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.es5</groupId>
 			<artifactId>com-es5</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
 		
 		<dependency>
           <groupId>org.postgresql</groupId>

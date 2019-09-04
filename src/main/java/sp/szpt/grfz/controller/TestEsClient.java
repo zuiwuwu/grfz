@@ -1,4 +1,4 @@
-package sp.szpt.grfz.controller;
+/*package sp.szpt.grfz.controller;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -28,9 +28,9 @@ import org.elasticsearch.xpack.client.PreBuiltXPackTransportClient;
 
 public class TestEsClient {
 	
-/*	 public static void main(String[] args) {
+	 public static void main(String[] args) {
 	        ss();
-	    }*/
+	    }
 	 
 		private static Client createTransportClient() {
 		      //设置集群名称
@@ -79,7 +79,7 @@ public class TestEsClient {
 
     public static  SearchHits ss(String serachtext) {
 
-/*        try {
+        try {
 
             //设置集群名称
             Settings settings = Settings.builder().put("cluster.name", "elasticsearch")
@@ -90,7 +90,7 @@ public class TestEsClient {
                     .put("client.transport.sniff", true).build();
             //创建client
             TransportClient client = new PreBuiltXPackTransportClient(settings)
-                    .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("192.168.0.100"), 9300));*/
+                    .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("192.168.0.100"), 9300));
     	
     	
     	TransportClient client = (TransportClient) createTransportClient();
@@ -98,9 +98,9 @@ public class TestEsClient {
 //            GetResponse response = client.prepareGet("megacorp", "employee", "_search").execute().actionGet();
             //搜索数据
 //            SearchResponse searchresponse = client.prepareSearch("megacorp").execute().actionGet();
-            /*JSONObject jsonObject = JSONObject.fromObject(searchresponse.toString());  
+            JSONObject jsonObject = JSONObject.fromObject(searchresponse.toString());  
             JSONObject hites = (JSONObject) jsonObject.get("hits");  
-          	System.out.println(hites.get("hits").toString());  */
+          	System.out.println(hites.get("hits").toString());  
             //输出结果
 //            System.out.println(response.getSourceAsString());
 //            System.out.println(searchresponse.toString());
@@ -136,7 +136,7 @@ public class TestEsClient {
     		SearchHits searchHits = searchResponse.getHits();
     		System.out.println("-----------------queryString---------------------");
 //    		System.out.println("共匹配到:"+searchHits.getTotalHits()+"条记�?!");
-    		/*SearchHit[] hits = searchHits.getHits();
+    		SearchHit[] hits = searchHits.getHits();
     		for (SearchHit searchHit : hits) {
     			//获取高亮的字�?
     			Map<String, HighlightField> highlightFields = searchHit.getHighlightFields();
@@ -148,9 +148,9 @@ public class TestEsClient {
     				System.out.println(string+":"+sourceAsMap.get(string));
     			}
     			System.out.println();
-    		}*/
+    		}
     		 //遍历结果
-          /*  for(SearchHit hit:searchHits){
+            for(SearchHit hit:searchHits){
                 System.out.println("String方式打印文档搜索内容:");
                 System.out.println(hit.getSourceAsString()+hit.getId());
                 System.out.println("Map方式打印高亮内容");
@@ -161,17 +161,18 @@ public class TestEsClient {
                 for (Text str : text) {
                     System.out.println(str.string());
                 }
-            }*/
+            }
 			return searchHits;
     	
             
-/*            client.close();
+            client.close();
 
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
+        }
 	
 
     }
 
 }
+*/
